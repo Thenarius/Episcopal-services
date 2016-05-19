@@ -1,0 +1,325 @@
+{
+		"name": "St. Andrew's Episcopal Church",
+		"city": "Aberdeen",
+		"address": "400 E. First St.",
+		"zip": "98520",
+		"phone": "3605332511",
+		"website": "http://standrewsgh.com/",
+		"events": {
+			"mass": {
+				"Sunday": ["8:00", "10:30"],
+				"Wednesday": ["17:15"]
+			},
+			"daily_prayer": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE"
+	},
+	{
+		"name": "St. Hugh of Lincoln",
+		"city": "Allyn", 
+		"address": "280 E. Wheelwright St.",
+		"zip": "98524",
+		"phone": "3602758450",
+		"website": "http://www.sthughchurch.org/",
+		"events": {
+			"mass": {
+				"Sunday": ["10:00"],
+				"Thursday": ["9:00"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE"
+	},
+	{
+		"name": "Christ Episcopal Church",
+		"city": "Anacortes",
+		"address": "1216 7th St.",
+		"zip": "98221",
+		"phone": "3602935790",
+		"website": "http://www.christchurchanacortes.org/",
+		"events": {
+			"mass": {
+				"Sunday (2nd)": ["8:00"],
+				"Sunday": ["10:30"]
+			},
+			"daily_office": {
+				"Sunday (1st, 3rd & 4th)": {"Morning Prayer": "8:00"}
+			},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE"
+	},
+	{
+		"name": "Celebration Lutheran Church",
+		"city": "Anacortes",
+		"address": "611 R Ave.",
+		"zip": "98221",
+		"phone": "3602993225",
+		"website": "http://www.celebrationlc.org/",
+		"events": {
+			"mass": {
+				"Sunday": ["9:30"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "TRUE"
+	},
+	{
+		"name": "St. Matthew / San Mateo",
+		"city": "Auburn",
+		"address": "123 L St. NE",
+		"zip": "98002",
+		"phone": "2538330890",
+		"website": "http://stmatthewsanmateo.org",
+		"events": {
+			"mass": {
+				"Sunday": ["9:00"],
+				"Sunday (Bilingual Spanish/English)": ["11:00"]
+				},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "TRUE"
+	},
+	{
+		"name": "St. Barnabas",
+		"city": "Bainbridge Island",
+		"address": "1187 Wyatt Wy. NW",
+		"zip": "98110",
+		"phone": "2068425601",
+		"website": "http://www.stbbi.org",
+		"events": {
+			"mass": {
+				"Sunday": ["8:00", "10:00"],
+				"Thursday": ["9:15"]
+			},
+			"daily_office": {},
+			"prayer_service": {
+				"Tuesday": {
+					"Centering Prayer": "9:00"
+				}
+			},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "Grace Church",
+		"city": "Bainbridge Island",
+		"address": "8595 NE Day Rd. E",
+		"zip": "98110",
+		"phone": "2068429997",
+		"website": "http://www.gracehere.org",
+		"events": {
+			"mass": {
+				"Sunday": ["8:00", "9:30"],
+				"Wednesday": ["10:30"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "Church of the Holy Spirit",
+		"city": "Battle Ground",
+		"address": "NW 9th Ave & NW 24th St.",
+		"zip": "98604",
+		"phone": "3606873301",
+		"website": "http://www.holyspiritbg.com",
+		"events": {
+			"mass": {
+				"Sunday": ["10:00"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "TRUE" 
+	},
+	{
+		"name": "Church of the Resurrection",
+		"city": "Bellevue",
+		"address": "15220 Main St.",
+		"zip": "98007",
+		"phone": "4257460322",
+		"website": "http://www.resurrectionbellevue.org/",
+		"events": {
+			"mass": {
+				"Sunday": ["8:00", "10:00"],
+				"Thursday": ["12:00"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {
+				"Thursday": ["10:30"]
+			}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "St. Margaret's Episcopal Church",
+		"city": "Bellevue",
+		"address": "4228 Factoria Blvd. SE",
+		"zip": "98006",
+		"phone": "4257466650",
+		"website": "http://saintmargarets.org/",
+		"events": {
+			"mass": {
+				"Sunday": ["7:15", "8:45", "11:00"]	,
+				"Tuesday": ["6:00"],
+				"Wednesday": ["9:30"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "Church of the Holy Apostles",
+		"city": "Bellevue",
+		"address": "15220 Main St.",
+		"zip": "98007",
+		"phone": "4253511423",
+		"website": "http://holyapostles-wa.org/",
+		"events": {
+			"mass": {
+				"Sunday": ["12:00"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE"
+	},
+	{
+		"name": "All Saints Episcopal Church",
+		"city": "Bellevue",
+		"address": "1307 120th Ave NE",
+		"zip": "98005",
+		"phone": "4256461136",
+		"website": "http://www.allsaintsbellevue.org",
+		"events": {
+			"mass": {
+				"Sunday": ["9:30"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "St. Paul's Episcopal Church",
+		"city": "Bellingham",
+		"address": "2117 Walnut St",
+		"zip": "98225",
+		"phone": "3607332890",
+		"website": "http://www.stpaulsbellingham.org/",
+		"events": {
+			"mass": {
+				"Sunday": ["7:45", "9:00", "10:30"],
+				"Wednesday": ["6:30", "5:30"],
+				"Thursday": ["10:00"]
+			},
+			"daily_office": {},
+			"prayer_service": {
+				"Thursday": {
+					"Contemplative Prayer": "17:30"
+				}
+			},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "Christ Episcopal Church",
+		"city": "Blaine",
+		"address": "382 Boblett St",
+		"zip": "98230",
+		"phone": "3603324113",
+		"website": "",
+		"events": {
+			"mass": {
+				"Sunday": ["10:00"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "St. Paul's Episcopal Church",
+		"city": "Bremerton",
+		"address": "700 Callahan Dr",
+		"zip": "98130",
+		"phone": "3603770106",
+		"website": "http://www.stpaulsbremerton.org/",
+		"events": {
+			"mass": {
+				"Sunday": ["8:00", "10:15"],
+				"Thursday": ["10:00"]
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {
+				"Wednesday": ["10:00"]
+			}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "St. Elizabeth",
+		"city": "Burien",
+		"address": "1005 SW 152nd St",
+		"zip": "98166",
+		"phone": "2062436844",
+		"website": "https://stelizabethburien.org/",
+		"events": {
+			"mass": {
+				"Sunday": ["10:00"]	
+			},
+			"daily_office": {
+				"Wednesday": {
+					"Evening Prayer": "17:30"
+				}	
+			},
+			"prayer_service": {
+				"Centering Prayer": "8:00"
+			},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE" 
+	},
+	{
+		"name": "Iglesia Santa Isabel",
+		"city": "Burien",
+		"address": "1005 SW 152nd St",
+		"zip": "98166",
+		"phone": "2062436844",
+		"website": "https://stelizabethburien.org/",
+		"events": {
+			"mass": {
+				"Sunday": {
+					"language": "Español",
+					"time": "17:00"
+				}
+			},
+			"daily_office": {},
+			"prayer_service": {},
+			"bible_study": {}
+		},
+		"flag_for_outreach": "FALSE" 
+	},	
+}

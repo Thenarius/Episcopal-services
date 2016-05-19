@@ -1,0 +1,15 @@
+{
+	"name": "",
+	"city": "",
+	"address": "",
+	"zip": "",
+	"phone": "",
+	"website": "",
+	"events": {
+		"mass": {},
+		"daily_office": {},
+		"prayer_service": {},
+		"bible_study": {}
+	},
+	"flag_for_outreach": "FALSE" 
+}
