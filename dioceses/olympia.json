@@ -1,4 +1,6 @@
 {
+	"parishes": [
+	{
 		"name": "St. Andrew's Episcopal Church",
 		"city": "Aberdeen",
 		"address": "400 E. First St.",
@@ -12,7 +14,7 @@
 						"language": "English",
 						"time": "8:00",
 						"tags": []
-					}
+					},
 					{
 						"language": "English",
 						"time": "10:30",
@@ -31,7 +33,7 @@
 		},
 		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE"
-	},
+		},
 	{
 		"name": "St. Hugh of Lincoln",
 		"city": "Allyn", 
@@ -528,11 +530,11 @@
 		"website": "https://stelizabethburien.org/",
 		"events": {
 			"mass": {
-				"Sunday": {
+				"Sunday": [{
 					"language": "Español",
 					"time": "17:00",
 					"tags": []
-				}
+				}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
@@ -540,5 +542,5 @@
 		},
 		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
-	},	
+	}]
 }
