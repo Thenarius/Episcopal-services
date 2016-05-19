@@ -7,13 +7,29 @@
 		"website": "http://standrewsgh.com/",
 		"events": {
 			"mass": {
-				"Sunday": ["8:00", "10:30"],
-				"Wednesday": ["17:15"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "8:00",
+						"tags": []
+					}
+					{
+						"language": "English",
+						"time": "10:30",
+						"tags": []
+					}],
+				"Wednesday": [
+					{
+						"language": "English",
+						"time": "17:15",
+						"tags": ["Rite II"]
+					}]
 			},
 			"daily_prayer": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE"
 	},
 	{
@@ -25,13 +41,24 @@
 		"website": "http://www.sthughchurch.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["10:00"],
-				"Thursday": ["9:00"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "10:00",
+						"tags": []
+					}],
+				"Thursday": [
+					{
+						"language": "English",
+						"time": "9:00",
+						"tags": ["verify"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE"
 	},
 	{
@@ -43,8 +70,24 @@
 		"website": "http://www.christchurchanacortes.org/",
 		"events": {
 			"mass": {
-				"Sunday (2nd)": ["8:00"],
-				"Sunday": ["10:30"]
+				"Sunday (2nd)": [
+					{
+						"language": "English",
+						"time": "8:00",
+						"tags": ["repeat-fix"]
+					}],
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "10:30",
+						"tags": []
+					},
+					{
+						"language": "English",
+						"time": "9:30",
+						"tags": ["location-fix"],
+						"alt-location": ["true", "1300 O Ave"]
+					}]
 			},
 			"daily_office": {
 				"Sunday (1st, 3rd & 4th)": {"Morning Prayer": "8:00"}
@@ -52,6 +95,7 @@
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE"
 	},
 	{
@@ -63,12 +107,17 @@
 		"website": "http://www.celebrationlc.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["9:30"]
+				"Sunday": [{
+						"language": "English",
+						"time": "9:30",
+						"tags": ["verify"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "TRUE"
 	},
 	{
@@ -80,13 +129,23 @@
 		"website": "http://stmatthewsanmateo.org",
 		"events": {
 			"mass": {
-				"Sunday": ["9:00"],
-				"Sunday (Bilingual Spanish/English)": ["11:00"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "9:00",
+						"tags": ["spoken"]
+					},
+					{
+						"language": "Bilingual (Spanish/English)",
+						"time": "11:00",
+						"tags": []
+					}]
 				},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "TRUE"
 	},
 	{
@@ -98,17 +157,34 @@
 		"website": "http://www.stbbi.org",
 		"events": {
 			"mass": {
-				"Sunday": ["8:00", "10:00"],
-				"Thursday": ["9:15"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "8:00",
+						"tags": ["Rite I"]
+					},
+					{
+						"language": "English",
+						"time": "10:00", 
+						"tags": ["Rite II"]
+					}],
+				"Thursday": [{
+						"language": "English",
+						"time": "9:15",
+						"tags": ["healing"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {
 				"Tuesday": {
-					"Centering Prayer": "9:00"
+					"name": "Centering Prayer",
+					"time": "9:00",
+					"tags": ["contemplative"]
 				}
 			},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -120,13 +196,29 @@
 		"website": "http://www.gracehere.org",
 		"events": {
 			"mass": {
-				"Sunday": ["8:00", "9:30"],
-				"Wednesday": ["10:30"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "8:00",
+						"tags": ["Rite I"]
+					},
+					{
+						"language": "English",
+						"time": "9:30",
+						"tags": ["Rite II", "Contemporary Music", "Choral"]
+					}],
+				"Wednesday": [
+					{
+						"language": "English",
+						"time": "10:30",
+						"tags": ["healing"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -138,12 +230,17 @@
 		"website": "http://www.holyspiritbg.com",
 		"events": {
 			"mass": {
-				"Sunday": ["10:00"]
+				"Sunday": [{
+						"language": "English",
+						"time": "10:00",
+						"tags": ["verify"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "TRUE" 
 	},
 	{
@@ -155,15 +252,31 @@
 		"website": "http://www.resurrectionbellevue.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["8:00", "10:00"],
-				"Thursday": ["12:00"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "8:00",
+						"tags": ["Rite I"]
+					},
+					{
+						"language": "English",
+						"time": "10:00",
+						"tags": ["Rite II"]
+					}],
+				"Thursday": [
+					{
+						"language": "English",
+						"time": "12:00",
+						"tags": ["Rite II"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {
-				"Thursday": ["10:30"]
+				"Thursday": "10:30"
 			}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -175,14 +288,42 @@
 		"website": "http://saintmargarets.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["7:15", "8:45", "11:00"]	,
-				"Tuesday": ["6:00"],
-				"Wednesday": ["9:30"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "7:15", 
+						"tags": ["Contemplative"]
+					},
+					{
+						"language": "English",
+						"time": "8:45",
+						"tags": ["Contemporary Music"]
+					},
+					{
+						"language": "English",
+						"time": "11:00",
+						"tags": ["Traditional Music"]
+					}],
+				"Tuesday": [
+					{
+						"language": "English",
+						"time": "6:00", 
+						"tags": ["location-fix"],
+						"alt-location": ["true", "Chapel"]
+					}],
+				"Wednesday": [
+					{
+						"language": "English",
+						"time": "9:30", 
+						"tags": ["location-fix"],
+						"alt-location": ["true", "Chapel"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -194,12 +335,18 @@
 		"website": "http://holyapostles-wa.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["12:00"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "12:00",
+						"tags": ["verify", "bilingual?"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE"
 	},
 	{
@@ -211,12 +358,17 @@
 		"website": "http://www.allsaintsbellevue.org",
 		"events": {
 			"mass": {
-				"Sunday": ["9:30"]
+				"Sunday": [
+					{	"language": "English",
+						"time": "9:30",
+						"tags": []
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -228,18 +380,51 @@
 		"website": "http://www.stpaulsbellingham.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["7:45", "9:00", "10:30"],
-				"Wednesday": ["6:30", "5:30"],
-				"Thursday": ["10:00"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "7:45",
+						"tags": ["Contemplative", "Spoken", "Rite II"]
+					},
+					{
+						"language": "English",
+						"time": "9:00",
+						"tags": ["Casual", "Contemporary Music"]
+					},
+					{
+						"language": "English",
+						"time": "10:30",
+						"tags": ["Formal", "High-Church", "Traditional Music", "Rite II", "Choral"]
+					}],
+				"Wednesday": [
+					{
+						"language": "English",
+						"time": "6:30",
+						"tags": []
+					},
+					{
+						"language": "English",
+						"time": "17:30",
+						"tags": []
+					}],
+				"Thursday": [
+					{
+						"language": "English",
+						"time": "10:00",
+						"tags": ["healing"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {
 				"Thursday": {
-					"Contemplative Prayer": "17:30"
+					"name": "Contemplative Prayer",
+					"time": "17:30",
+					"tags": ["Contemplative"]
 				}
 			},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -248,15 +433,21 @@
 		"address": "382 Boblett St",
 		"zip": "98230",
 		"phone": "3603324113",
-		"website": "",
+		"website": "http://christchurchblaine.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["10:00"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "10:00",
+						"tags": []
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -268,15 +459,31 @@
 		"website": "http://www.stpaulsbremerton.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["8:00", "10:15"],
-				"Thursday": ["10:00"]
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "8:00", 
+						"tags": ["Spoken"]
+					},
+					{
+						"language": "English",
+						"time": "10:15",
+						"tags": ["Choral"]
+					}],
+				"Thursday": [
+					{
+						"language": "English",
+						"time": "10:00",
+						"tags": ["Healing"]
+					}]
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {
-				"Wednesday": ["10:00"]
+				"Wednesday": "10:00"
 			}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -288,7 +495,12 @@
 		"website": "https://stelizabethburien.org/",
 		"events": {
 			"mass": {
-				"Sunday": ["10:00"]	
+				"Sunday": [
+					{
+						"language": "English",
+						"time": "10:00",
+						"tags": []
+					}]
 			},
 			"daily_office": {
 				"Wednesday": {
@@ -296,10 +508,15 @@
 				}	
 			},
 			"prayer_service": {
-				"Centering Prayer": "8:00"
+				"Saturday": {
+					"name": "Centering Prayer",
+					"time": "8:00",
+					"tags": ["Contemplative"]
+				}
 			},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},
 	{
@@ -313,13 +530,15 @@
 			"mass": {
 				"Sunday": {
 					"language": "Español",
-					"time": "17:00"
+					"time": "17:00",
+					"tags": []
 				}
 			},
 			"daily_office": {},
 			"prayer_service": {},
 			"bible_study": {}
 		},
+		"last_updated": "2016-05-19",
 		"flag_for_outreach": "FALSE" 
 	},	
 }
