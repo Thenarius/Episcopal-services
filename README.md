@@ -1,5 +1,5 @@
 # Episcopal Service Times #
-
+### ... aka "Better Know A Diocese" ###
 This app endeavors to provide accurate, up-to-date information on services in the Episcopal Church.
 
 I am currently implementing data for churches in the Episcopal Diocese of Olympia (Western Washington).
