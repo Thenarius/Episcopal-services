@@ -1,0 +1,13 @@
+body {
+	background-image: url('bgtile.png');
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	color: rgb(200, 20, 65);
+}
+
+#content {
+	background-color: white;
+	margin-top: 50px;
+}
