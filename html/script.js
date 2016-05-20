@@ -7,4 +7,13 @@ $(document).ready(function() {
 			console.log("POSTed to /search")
 		});
 	});	
+
+	$("#dioceseLink").click(function() {
+		console.log("Clicked Diocese Select link");
+
+		$.get('/diocese/index.html', function(data){
+			$('#dioceses').html(data);
+			$('#dioceses').toggle();
+		});
+	});
 });

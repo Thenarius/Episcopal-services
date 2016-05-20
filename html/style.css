@@ -7,7 +7,20 @@ a {
 	color: rgb(200, 20, 65);
 }
 
-#content {
-	background-color: white;
-	margin-top: 50px;
+.inactive {
+	display: none;
+}
+
+.main {
+	background-color: white !important;
+}
+
+#dioceses {
+	background: white;
+	border: 1px solid gray;
+	display: none;
+	left: -15%;
+	position: absolute;
+	top: -1%;
+	z-index: 10;
 }

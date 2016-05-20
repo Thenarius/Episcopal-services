@@ -3,25 +3,43 @@
 	<head>
 		<script src="jquery.js"></script>
 		<script src="angular.js"></script>
+		<script src="jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="jquery-ui.min.css">
 		<link href="bootstrap.css" rel="stylesheet">
-		<link href="style.css" rel="stylesheet"></script>
+		<link href="style.css" rel="stylesheet">
+		<script>
+			$(function() {
+				$("#tabs").tabs();
+			})
+		</script>
 	</head>
 	<body>
-		<div class="well col-md-8 col-md-offset-2" id="content">
-			<ul class="nav nav-tabs">
-				<li class="active"><a href="#">Find a parish</a></li>
-				<li><a href="#">About The Episcopal Church</a></li>
-				<li><a href="#">Donate/...</a></li>
+		<div id="tabs" class="well col-md-8 col-md-offset-2">
+			<ul class="nav nav-tabs well">
+				<li class="active"><a href="#content" id="homeLink">Find a parish</a></li>
+				<li><a href="#about" id="aboutLink">About The Episcopal Church</a></li>
+				<li><a href="#help" id="helpLink">Donate/...</a></li>
 			</ul>
-			<h3>Enter your location</h3>
-			<div class="input-group">
-				<input type="search" class="form-control" autocomplete="on" required="true"></input>
-				<span class="input-group-btn">
-					<button class="btn btn-default" id="submit">&#127760;</button>
-				</span>
-			</div><br />
-			<p>... or <a href="#">select a diocese</a> to see its entries.</p>
+			<div class="main active" id="content">
+				<h3>Enter your location</h3>
+				<div class="input-group">
+					<input type="search" class="form-control" autocomplete="on" required="true"></input>
+					<span class="input-group-btn">
+						<button class="btn btn-default" id="submit">&#127760;</button>
+					</span>
+				</div><br />
+				<p>... or <a href="#" id="dioceseLink">select a diocese</a> to see its entries.</p>
+				<div id="dioceses" class="col-md-4 col-md-offset-6 well"></div>
+			</div>
+			<div class="main" id="about">
+				<h3>About The Episcopal Church</h3>
+				<p>When you click this tab, things happen! Isn't that great?</p>
+			</div>
+			<div class="main" id="help">
+				<h3>Help</h3>
+				<p><strong>Fun fact!</strong> There are 99 dioceses in The Episcopal Church. That's a lot! That's more than I can handle! Please help me!</p>
+			</div>
 		</div>
-		<script src="script.js"></script>
 	</body>
+	<script src="script.js"></script>
 </html>

@@ -51,6 +51,8 @@ The "flag for outreach" parameter should be true **only** for parishes that have
 
 ## TODO ##
 * Continue implementing churches in the diocese of Olympia. 
-* Revamp Mass listings to use the format adopted in the listing for La Iglesia Santa Isabel
-	* Include tags (healing, rite I, incense, etc.) for these services.
 * Revamp the way services that only occur e.g. every other week are handled.
+* Update the example church in this file.
+* Have web app display Olympia entries somehow.
+* Flesh-out map page.
+* Find out how to actually stick my tabs to the div I want them to stick to.
