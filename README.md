@@ -50,6 +50,7 @@ For services, language should be specified explicitly. Assume English if a paris
 The "flag for outreach" parameter should be true **only** for parishes that have defunct websites or otherwise out-of-date/missing information (e.g., if any contact information is missing). 
 
 ## TODO ##
+* Figure out a solution for the map page -- when we do locations we're going to be selecting all parishes within a certain distance...
 * Switch back to Bootstrap for tabs due to unsettling behavior from jQuery UI.
 * Define & compile custom Bootstrap style.
 * Continue implementing churches in the diocese of Olympia. 
