@@ -20,13 +20,13 @@
 				<li><a href="#">About The Episcopal Church</a></li>
 				<li><a href="#">Donate/...</a></li>
 			</ul>
-			<div class="col-md-6" ng-controller="main">
+			<div class="col-md-6" ng-controller="main" ng-init="loadData()">
 				<h3>Churches near you</h3>
-				<div class="panel-group">
+				<div class="panel-group" ng-repeat="parish in parishes">
 					<div class="panel panel-default">
 						<div class="panel-heading"><a href="#acc1" data-toggle="collapse">Sample Heading</a></div>
 						<div id="acc1" class="panel-collapse collapse"> 
-							<div class="panel-body">{{test}}</div>
+							<div class="panel-body">{{ parish }}</div>
 						</div>
 					</div>
 				</div>
@@ -37,7 +37,7 @@
 		</div>
 	</body>
 	<script src="map.js"></script>
-	<!-- Don't want to make Google API calls just yet.
+<!--	 Don't want to make Google API calls just yet.
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiNAAnAVpK2gnb47fhGua4Qvutgm3947Y&callback=initMap" async defer></script>
-	-->
+-->
 </html>
