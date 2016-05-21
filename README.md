@@ -51,6 +51,7 @@ The "flag for outreach" parameter should be true **only** for parishes that have
 
 ## TODO ##
 * Switch back to Bootstrap for tabs due to unsettling behavior from jQuery UI.
+* Define & compile custom Bootstrap style.
 * Continue implementing churches in the diocese of Olympia. 
 * Revamp the way services that only occur e.g. every other week are handled.
 * Update the example church in this file.

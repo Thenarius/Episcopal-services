@@ -2,6 +2,7 @@
 	<head>
 		<script src="jquery.js"></script>
 		<script src="jquery-ui.min.js"></script>
+		<script src="angular.js"></script>
 		<link rel="stylesheet" href="jquery-ui.min.css">
 		<link href="bootstrap.css" rel="stylesheet">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -12,45 +13,31 @@
 			})
 		</script>
 	</head>
-	<body>
+	<body ng-app="app">
 		<div id="tabs" class="col-md-10 col-md-offset-1">
 			<ul>
 				<li><a href="#">Find a parish</a></li>
 				<li><a href="#">About The Episcopal Church</a></li>
 				<li><a href="#">Donate/...</a></li>
 			</ul>
-			<div class="col-md-6">
+			<div class="col-md-6" ng-controller="main">
 				<h3>Churches near you</h3>
 				<div class="panel-group">
 					<div class="panel panel-default">
 						<div class="panel-heading"><a href="#acc1" data-toggle="collapse">Sample Heading</a></div>
-						<div id="acc1" class="panel-collapse collapse in"> 
-							<div class="panel-body">Sample content</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading"><a href="#acc2" data-toggle="collapse">Sample Heading</a></div>
-						<div id="acc2" class="panel-collapse collapse"> 
-							<div class="panel-body">Sample content</div>
+						<div id="acc1" class="panel-collapse collapse"> 
+							<div class="panel-body">{{test}}</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6" id="map">
-
-<!--					<script>
-					var map;
-					function initMap() {
-						map = new google.maps.Map(document.getElementById('map'), {
-							center: {lat: -34.397, lng: 150.644},
-							zoom: 8
-						});
-					}
-				</script>
--->
 				<p>I'm a map. But showing maps <em>too</em> much costs money.</p>
 			</div>
 		</div>
 	</body>
-	<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiNAAnAVpK2gnb47fhGua4Qvutgm3947Y&callback=initMap" async defer></script>-->
+	<script src="map.js"></script>
+	<!-- Don't want to make Google API calls just yet.
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiNAAnAVpK2gnb47fhGua4Qvutgm3947Y&callback=initMap" async defer></script>
+	-->
 </html>
