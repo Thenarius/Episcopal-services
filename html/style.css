@@ -7,12 +7,28 @@ a {
 	color: rgb(200, 20, 65);
 }
 
-.inactive {
+a:visited {
+	color: rgb(200, 10, 25);
+}
+
+form {
+	width: 100%;
+}
+
+ul {
+	background-color: white !important;
+	border-top: none !important;
+	border-right: none !important;
+	border-left: none !important;
+}
+
+.hidden {
 	display: none;
 }
 
 .main {
 	background-color: white !important;
+	border-left: 2px solid gray;
 }
 
 #dioceses {
@@ -24,3 +40,5 @@ a {
 	top: -1%;
 	z-index: 10;
 }
+
+

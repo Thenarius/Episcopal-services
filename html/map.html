@@ -1,14 +1,30 @@
-<!DOCTYPE html>
 <html>
 	<head>
 		<script src="jquery.js"></script>
-		<script src="angular.js"></script>
+		<script src="jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="jquery-ui.min.css">
 		<link href="bootstrap.css" rel="stylesheet">
-		<link href="style.css" rel="stylesheet"></script>
+		<link href="style.css" rel="stylesheet">
+		<script>
+			$(function() {
+				$("#tabs").tabs();
+			})
+		</script>
 	</head>
 	<body>
-		<div class="well col-md-8 col-md-offset-2" id="content">
-			<p>I'm a map!</p>
+		<div id="tabs" class="col-md-8 col-md-offset-2">
+			<ul>
+				<li><a href="#">Find a parish</a></li>
+				<li><a href="#">About The Episcopal Church</a></li>
+				<li><a href="#">Donate/...</a></li>
+			</ul>
+			<div class="main">
+				<div class="col-md-4">
+					<p>I'm not a map.</p>
+				</div>
+				<div class="col-md-8">
+					<p>I'm a map.</p>
+				</div>
+			</div>
 		</div>
 	</body>
-</html>

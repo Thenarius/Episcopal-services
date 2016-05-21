@@ -50,9 +50,9 @@ For services, language should be specified explicitly. Assume English if a paris
 The "flag for outreach" parameter should be true **only** for parishes that have defunct websites or otherwise out-of-date/missing information (e.g., if any contact information is missing). 
 
 ## TODO ##
+* Switch back to Bootstrap for tabs due to unsettling behavior from jQuery UI.
 * Continue implementing churches in the diocese of Olympia. 
 * Revamp the way services that only occur e.g. every other week are handled.
 * Update the example church in this file.
 * Have web app display Olympia entries somehow.
 * Flesh-out map page.
-* Find out how to actually stick my tabs to the div I want them to stick to.

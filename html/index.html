@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<script src="jquery.js"></script>
-		<script src="angular.js"></script>
 		<script src="jquery-ui.min.js"></script>
 		<link rel="stylesheet" href="jquery-ui.min.css">
 		<link href="bootstrap.css" rel="stylesheet">
@@ -14,31 +13,31 @@
 		</script>
 	</head>
 	<body>
-		<div id="tabs" class="well col-md-8 col-md-offset-2">
-			<ul class="nav nav-tabs well">
-				<li class="active"><a href="#content" id="homeLink">Find a parish</a></li>
-				<li><a href="#about" id="aboutLink">About The Episcopal Church</a></li>
-				<li><a href="#help" id="helpLink">Donate/...</a></li>
+		<div id="tabs" class="col-md-8 col-md-offset-2">
+			<ul>
+				<li class="active"><a href="#home">Find a parish</a></li>
+				<li><a href="#about">About The Episcopal Church</a></li>
+				<li><a href="#help">Donate/...</a></li>
 			</ul>
-			<div class="main active" id="content">
+			<div id="home" class="main">
 				<h3>Enter your location</h3>
-				<div class="input-group">
+				<form class="input-group" action="/search" method="post">
 					<input type="search" class="form-control" autocomplete="on" required="true"></input>
 					<span class="input-group-btn">
-						<button class="btn btn-default" id="submit">&#127760;</button>
+						<input class="btn btn-default" type="submit" value="&#127758;"></button>
 					</span>
-				</div><br />
+				</form><br />
 				<p>... or <a href="#" id="dioceseLink">select a diocese</a> to see its entries.</p>
-				<div id="dioceses" class="col-md-4 col-md-offset-6 well"></div>
 			</div>
-			<div class="main" id="about">
+			<div id="about" class="main">
 				<h3>About The Episcopal Church</h3>
 				<p>When you click this tab, things happen! Isn't that great?</p>
 			</div>
-			<div class="main" id="help">
+			<div id="help" class="main">
 				<h3>Help</h3>
 				<p><strong>Fun fact!</strong> There are 99 dioceses in The Episcopal Church. That's a lot! That's more than I can handle! Please help me!</p>
 			</div>
+			<div id="dioceses" class="hidden"></div>
 		</div>
 	</body>
 	<script src="script.js"></script>
