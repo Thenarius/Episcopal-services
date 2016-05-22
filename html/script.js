@@ -1,13 +1,9 @@
 $(document).ready(function() {
-	$("#submit").click(function() {
-		console.log("click");
-		$.post('/search', function(data) {
-			console.log("search");
-			console.log(data);
-			$('body').html(data);
-			console.log($('body'));
-		});
-	});	
+	$("#tabs a").click(function(event) {
+		event.preventDefault();
+		$(this).tab('show');
+		console.log(this);
+	});
 
 	$("#dioceseLink").click(function() {
 		console.log("Select");

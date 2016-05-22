@@ -7,13 +7,13 @@
 		<link href="style.css" rel="stylesheet">
 	</head>
 	<body ng-app="app">
-		<div id="tabs" class="col-md-10 col-md-offset-1">
-			<ul>
-				<li><a href="#">Find a parish</a></li>
-				<li><a href="#">About The Episcopal Church</a></li>
-				<li><a href="#">Donate/...</a></li>
+		<div class="col-md-10 col-md-offset-1 well" id="container">
+			<ul class="nav nav-tabs">
+				<li><a href="index.html#home">Find a parish</a></li>
+				<li><a href="index.html#about">About The Episcopal Church</a></li>
+				<li><a href="index.html#help">Donate/...</a></li>
 			</ul>
-			<div class="col-md-6" ng-controller="main" ng-init="loadData()">
+			<div class="col-md-6 main" ng-controller="main" ng-init="loadData()">
 				<h3>Churches near you</h3>
 				<div class="panel-group" ng-repeat="parish in parishes">
 					<div class="panel panel-default">
@@ -24,7 +24,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6" id="map">
+			<div class="col-md-6 main" id="map">
 				<p>I'm a map. But showing maps <em>too</em> much costs money.</p>
 			</div>
 		</div>

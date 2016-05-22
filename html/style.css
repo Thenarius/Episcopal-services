@@ -38,7 +38,11 @@ ul {
 
 .main {
 	background-color: white !important;
-	border-left: 2px solid gray;
+	padding: 20px;
+}
+
+#container {
+	padding: 5px 0 0 0;
 }
 
 #dioceses {

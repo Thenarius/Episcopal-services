@@ -2,33 +2,36 @@
 <html>
 	<head>
 		<script src="jquery.js"></script>
+		<script src="bootstrap.min.js"></script>
 		<link href="bootstrap.css" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="tabs" class="col-md-10 col-md-offset-1">
-			<ul>
-				<li class="active"><a href="#home">Find a parish</a></li>
+		<div class="col-md-10 col-md-offset-1 well" id="container">
+			<ul class="nav nav-tabs" id="tabs">
+				<li class="active"><a href="#home" data-toggle="tab">Find a parish</a></li>
 				<li><a href="#about">About The Episcopal Church</a></li>
 				<li><a href="#help">Donate/...</a></li>
 			</ul>
-			<div id="home" class="main">
-				<h3>Enter your location</h3>
-				<form class="input-group" action="/search" method="post">
-					<input type="search" class="form-control" autocomplete="on" required="true"></input>
-					<span class="input-group-btn">
-						<input class="btn btn-default" type="submit" value="&#127758;"></button>
-					</span>
-				</form><br />
-				<p>... or <a href="#" id="dioceseLink">select a diocese</a> to see its entries.</p>
-			</div>
-			<div id="about" class="main">
-				<h3>About The Episcopal Church</h3>
-				<p>When you click this tab, things happen! Isn't that great?</p>
-			</div>
-			<div id="help" class="main">
-				<h3>Help</h3>
-				<p><strong>Fun fact!</strong> There are 99 dioceses in The Episcopal Church. That's a lot! That's more than I can handle! Please help me!</p>
+			<div class="tab-content">
+				<div id="home" class="tab-pane active main">
+					<h3>Enter your location</h3>
+					<form class="input-group" action="/search" method="post">
+						<input type="search" class="form-control" autocomplete="on" required="true"></input>
+						<span class="input-group-btn">
+							<input class="btn btn-default" type="submit" value="&#127758;"></button>
+						</span>
+					</form><br />
+					<p>... or <a href="#" id="dioceseLink">select a diocese</a> to see its entries.</p>
+				</div>
+				<div id="about" class="tab-pane main">
+					<h3>About The Episcopal Church</h3>
+					<p>When you click this tab, things happen! Isn't that great?</p>
+				</div>
+				<div id="help" class="tab-pane main">
+					<h3>Help</h3>
+					<p><strong>Fun fact!</strong> There are 99 dioceses in The Episcopal Church. That's a lot! That's more than I can handle! Please help me!</p>
+				</div>
 			</div>
 			<div id="dioceses" class="hidden"></div>
 		</div>
