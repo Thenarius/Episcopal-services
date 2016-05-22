@@ -51,10 +51,7 @@ The "flag for outreach" parameter should be true **only** for parishes that have
 
 ## TODO ##
 * Figure out a solution for the map page -- when we do locations we're going to be selecting all parishes within a certain distance...
-* Switch back to Bootstrap for tabs due to unsettling behavior from jQuery UI.
 * Define & compile custom Bootstrap style.
 * Continue implementing churches in the diocese of Olympia. 
 * Revamp the way services that only occur e.g. every other week are handled.
 * Update the example church in this file.
-* Have web app display Olympia entries somehow.
-* Flesh-out map page.
