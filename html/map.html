@@ -2,8 +2,9 @@
 	<head>
 		<script src="jquery.js"></script>
 		<script src="angular.js"></script>
+		<script src="angular-ui_bootstrap.js"></script>
+		<script src="bootstrap.min.js"></script>
 		<link href="bootstrap.css" rel="stylesheet">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<link href="style.css" rel="stylesheet">
 	</head>
 	<body ng-app="app">
@@ -13,16 +14,31 @@
 				<li><a href="index.html#about">About The Episcopal Church</a></li>
 				<li><a href="index.html#help">Donate/...</a></li>
 			</ul>
-			<div class="col-md-6 main" ng-controller="main" ng-init="loadData()">
-				<h3>Churches near you</h3>
-				<div class="panel-group" ng-repeat="parish in parishes">
-					<div class="panel panel-default">
-						<div class="panel-heading"><a href="#acc1" data-toggle="collapse">Sample Heading</a></div>
-						<div id="acc1" class="panel-collapse collapse"> 
-							<div class="panel-body">{{ parish }}</div>
+			<div class="col-md-6 main" ng-controller="test" ng-init="loadData()">
+				<div id="accordions">
+					<script type="text/ng-template">
+						<div class="panel {{panelClass || 'panel-default}}">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">{{heading}}</a>
+								</h4>
+							</div>
+							<div class="panel panel-collapse" uib-collapse="!isOpen">
+								<div class="panel-body" ng-transclude></div>
+							</div>
 						</div>
-					</div>
+					</script>
 				</div>
+				<uib-accordion>
+					<uib-accordion-group heading="{{parish.name}}" ng-repeat="parish in parishes" is-open="$first">
+						<p>Address: {{parish.address}} {{parish.city}} {{parish.zip}}</p>
+						<p>Phone number: {{parish.phone | phone}}</p>
+						<p>Website: <a href="{{parish.website}}">{{parish.website}}</a></p>
+					</uib-accordion-group>
+				</uib-accordion>
+				<script>
+					$('uib-accordion :first').prop('isOpen', 'true');
+				</script>
 			</div>
 			<div class="col-md-6 main" id="map">
 				<p>I'm a map. But showing maps <em>too</em> much costs money.</p>

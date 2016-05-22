@@ -1,12 +1,21 @@
-var app = angular.module('app', []);
+var app = angular.module('app', ['ui.bootstrap']);
 
-app.controller("main", ['$scope', '$http', function($scope, $http) {
-	$scope.test = "test";
+app.filter('phone', function() {
+	return function(input) {
+		input = input || '';
+		var pieces = [input.slice(0, 3), input.slice(3, 6), input.slice(6)];
+		return pieces.join('-');
+	}
+});
+
+app.controller("test", ['$scope', '$http', function($scope, $http) {
+	$scope.parishes = '';
+
 	$scope.loadData = function() {
-		console.log("init");
-		$http.get('/dioceses/olympia.json').then(function(data) { 
+		$http.get('/dioceses/olympia.json').then(function(data) {
 			$scope.parishes = data.data.parishes;
-		});
+			console.log($scope.parishes)
+		})
 	}
 }]);
 
