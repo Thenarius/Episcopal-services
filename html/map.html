@@ -32,7 +32,7 @@
 				<uib-accordion>
 					<uib-accordion-group heading="{{parish.name}}" ng-repeat="parish in parishes" is-open="$first">
 						<p>Address: {{parish.address}} {{parish.city}} {{parish.zip}}</p>
-						<p>Phone number: {{parish.phone | phone}}</p>
+						<p>Phone number: <a href="tel:{{parish.phone}}">{{parish.phone | phone}}</a></p>
 						<p>Website: <a href="{{parish.website}}">{{parish.website}}</a></p>
 					</uib-accordion-group>
 				</uib-accordion>
