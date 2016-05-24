@@ -1,0 +1,50 @@
+CHECK		400 E. First St. Aberdeen, WA 98520
+CHECK 		280 E. Wheelwright St. Allyn, WA 98524
+CHECK		1216 7th St. Anacortes, WA 98221
+CHECK 		611 R Ave. Anacortes, WA 98221
+CHECK		123 L St. NE Auburn, WA 98002
+CHECK 		1187 Wyatt Wy. NW Bainbridge Island, WA 98110
+CHECK 		8595 NE Day Rd. E Bainbridge Island, WA 98110
+CHECK 		NW 9th Ave & NW 24th St. Battle Ground, WA 98604
+CHECK 		15220 Main St. Bellevue, WA 98007
+CHECK 		4228 Factoria Blvd. SE Bellevue, WA 98006 (St. Margaret's)
+15220 Main St. Bellevue, WA 98007
+1307 120th Ave NE Bellevue, WA 98005
+2117 Walnut St Bellingham, WA 98225
+382 Boblett St Blaine, WA 98230
+700 Callahan Dr Bremerton, WA 98130
+1005 SW 152nd St Burien, WA 98166
+1005 SW 152nd St Burien, WA 98166
+1318 E State Rd Camano Island, WA 98282
+412 Pioneer Ave Castle Rock, WA 98611
+1134 Columbia St Cathlamet, WA 98612
+1826 SW Snively Ave Chehalis, WA 98532
+840 Commercial St Darrington, WA 98241
+242 Main St Eastsound, WA 98245
+21405 82nd Pl W Edmonds, WA 98026
+15224 52nd Ave W Edmonds, WA 98026
+626 W Young St Elma, WA 98541
+2301 Hoyt Ave Everett, WA 98201
+345 S 312th St Federal Way, WA 98003
+250 Blackberry Ave Forks, WA 98331
+5217 S Honeymoon Bay Rd Freeland, WA 98249
+780 Park St Friday Harbor, WA 98250
+7701 Skansie Ave Gig Harbor, WA 98335
+600 North Lake Cushman Rd Hoodsport, WA 98548
+325 SE Darst St Issaquah, WA 98027
+6211 NE 182nd St Kenmore, WA 98028
+24447 94th Ave S Kent, WA 98030
+26715 Military Rd S Kent, WA 98032
+105 State St Kirkland, WA 98033
+910 Bowker St Lacey, WA 98503
+10630 Gravelly Lake Dr SW Lakewood, WA 98499
+11111 Military Rd SW Lakewood, WA 98498
+1428 22nd Ave Longview, WA 98632
+70 Sunset Ln Lopez Island, WA 98261
+24219 Witte Rd SE Maple Valley, WA 98038
+4312 84th St NE Marysville, WA 98270
+8398 NE 12th St Medina, WA 98029
+4400 86th Ave SE Mercer Island, WA 98040
+331 Lewis St Monroe, WA 98272
+124 N Sylvia Montesano, WA 98563
+415 S 18th St Mount Vernon, WA 98274
