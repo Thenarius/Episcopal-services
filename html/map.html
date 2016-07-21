@@ -9,12 +9,15 @@
 	</head>
 	<body ng-app="app">
 		<div class="col-md-10 col-md-offset-1 well" id="container">
+
 			<ul class="nav nav-tabs">
 				<li><a href="index.html#home">Find a parish</a></li>
 				<li><a href="index.html#about">About The Episcopal Church</a></li>
 				<li><a href="index.html#help">Donate/...</a></li>
 			</ul>
+
 			<div class="col-md-6 main" ng-controller="test" ng-init="loadData()">
+
 				<div id="accordions">
 					<script type="text/ng-template">
 						<div class="panel {{panelClass || 'panel-default}}">
@@ -29,6 +32,7 @@
 						</div>
 					</script>
 				</div>
+
 				<uib-accordion>
 					<uib-accordion-group heading="{{parish.name}}" ng-repeat="parish in parishes" is-open="$first">
 						<p>Address: {{parish.address}} {{parish.city}} {{parish.zip}}</p>
@@ -36,17 +40,23 @@
 						<p>Website: <a href="{{parish.website}}">{{parish.website}}</a></p>
 					</uib-accordion-group>
 				</uib-accordion>
+
 				<script>
 					$('uib-accordion :first').prop('isOpen', 'true');
 				</script>
+
 			</div>
+
+
 			<div class="col-md-6 main" id="map">
 				<p>I'm a map. But showing maps <em>too</em> much costs money.</p>
 			</div>
+
 		</div>
 	</body>
+
 	<script src="map.js"></script>
-<!--	 Don't want to make Google API calls just yet.
+<!--	 Don't want to make Google Maps API calls just yet.
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiNAAnAVpK2gnb47fhGua4Qvutgm3947Y&callback=initMap" async defer></script>
 -->
 </html>

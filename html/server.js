@@ -38,6 +38,7 @@ app.post('/search', function(req, res) {
 			response_stream.on('end', function(err, data) {
 				if (err) throw err;
 				console.log("Received full response from Geocode");
+				console.log("json_out: " + json_out);
 			});
 		});
 	});
