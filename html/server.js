@@ -2,6 +2,7 @@ var express = require('express');
 var fs = require('fs');
 var bodyparser = require('body-parser');
 var https = require('https');
+var Handlebars = require('handlebars');
 
 var app = express();
 app.use(bodyparser.urlencoded());
@@ -37,13 +38,30 @@ app.post('/search', function(req, res) {
 
 			response_stream.on('end', function(err, data) {
 				if (err) throw err;
+				json_out = JSON.parse(json_out);
 				console.log("Received full response from Geocode");
-				console.log("json_out: " + json_out);
+				var latitude = json_out.results[0].geometry.location.lat;
+				var longitude = json_out.results[0].geometry.location.lng;
+
+				// Once we have the location data, we need to prepare our response to the user
+				// We are going to give them the map page, with a map centered on the 
+				// latitude & longitude they gave us.
+				// The parish result list is going to be a list of all parishes 
+				// within a certain distance of them, ordered by closest to nearest. 
+
+				// So, in order, the actions we need to take are:
+				// 1. Look up the location the user searches & pass it to Geocode
+				// 2. Take the latitude & longitude from the geocode response and:
+				//   a. Look up the nearest parishes to that location in our database.
+				//   b. Format a JSON file with those parishes for rendering in the map.html.
+				//   c. Center the map on the lat & lng.
+				//   d. Plot parishes on the map.
+				// 3. Render the map.html with all this data and respond to the user with it. 
+				
+				res.sendFile(__dirname + '/' + 'map.html');
 			});
 		});
 	});
-	
-	res.sendFile(__dirname + '/' + 'map.html');
 });
 
 app.listen(8080, function() {

@@ -19,10 +19,10 @@ app.controller("test", ['$scope', '$http', function($scope, $http) {
 	}
 }]);
 
-// var map;
-// function initMap() {
-// 	map = new google.maps.Map(document.getElementById('map'), {
-// 		center: {lat: -34.397, lng: 150.644},
-// 		zoom: 8
-// 	});
-// }
+var map;
+function initMap() {
+	map = new google.maps.Map(document.getElementById('map'), {
+		center: {lat: 47.63, lng: -122.32},
+		zoom: 8
+	});
+}
