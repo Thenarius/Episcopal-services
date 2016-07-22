@@ -20,9 +20,13 @@ app.controller("test", ['$scope', '$http', function($scope, $http) {
 }]);
 
 var map;
+var geometry = JSON.parse($('#geometry').text());
+var lat = geometry['lat'];
+var lng = geometry['lng'];
+
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
-		center: {lat: 47.63, lng: -122.32},
-		zoom: 8
+		center: {lat: lat, lng: lng},
+		zoom: 12
 	});
 }

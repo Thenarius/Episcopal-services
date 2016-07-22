@@ -2,10 +2,15 @@ var express = require('express');
 var fs = require('fs');
 var bodyparser = require('body-parser');
 var https = require('https');
-var Handlebars = require('handlebars');
+var ejs = require('ejs');
 
 var app = express();
 app.use(bodyparser.urlencoded());
+
+
+// TEMP DEBUG etc
+app.set('views', __dirname + '/views');
+
 
 app.get('*', function(req, res) {
 	console.log("GET at " + req.path)
@@ -57,8 +62,8 @@ app.post('/search', function(req, res) {
 				//   c. Center the map on the lat & lng.
 				//   d. Plot parishes on the map.
 				// 3. Render the map.html with all this data and respond to the user with it. 
-				
-				res.sendFile(__dirname + '/' + 'map.html');
+				var response = { 'lat': latitude, 'lng': longitude };
+				res.render('map.ejs', { geometry: response });
 			});
 		});
 	});
