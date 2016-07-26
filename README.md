@@ -50,10 +50,9 @@ For services, language should be specified explicitly. Assume English if a paris
 The "flag for outreach" parameter should be true **only** for parishes that have defunct websites or otherwise out-of-date/missing information (e.g., if any contact information is missing). 
 
 ## TODO ##
-* Reorganize files a little bit.
 * Finish implementing Google Maps API integration for finding nearest churches.
 * Get & store latitude & longitude data for existing churches.
-* Define & compile custom Bootstrap style.
 * Continue implementing churches in the diocese of Olympia. (50/101)
 * Revamp the way services that only occur e.g. every other week are handled.
 * Update the example church in this file.
+* Switch to server-side rendering with React & some HTML templating engine for sanity's sake.
