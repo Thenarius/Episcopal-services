@@ -1,31 +1,36 @@
+// -- Includes --
 var express = require('express');
 var fs = require('fs');
 var bodyparser = require('body-parser');
 var https = require('https');
 var ejs = require('ejs');
+var Mongo = require('mongodb');
 
+// -- Config -- 
 var app = express();
 app.use(bodyparser.urlencoded());
 
-
-// TEMP DEBUG etc
 app.set('views', __dirname + '/views');
 
+// -- open db connection -- 
+var mongoClient = Mongo.MongoClient;
+var collection;
+mongoClient.connect('mongodb://localhost:27017/db', function(err, db) {
+	if (err) throw err;
+	console.log("Successfully connected to mongoDB");
+	collection = db.collection('documents');
+});
 
+// -- Routes -- 
 app.get('*', function(req, res) {
 	console.log("GET at " + req.path)
 	res.sendFile(__dirname + '/' + req.path);
 });
 
-// Once the user has sent their location, we're going to:
-// 1. Get the latitude & longitude of their location from Google
-// 2. Compare this against our database of parishes & get the n closest ones
-// 3. Use those parishes to render our results page
-// 4. Serve the results page to the user.
 app.post('/search', function(req, res) {
 	console.log("POST to /search: " + req.body.location);
 
-	// Storing Google Maps API key in a separate file for security purposes.
+	// Storing Google Maps API key in a separate file for security purposes
 	fs.readFile('.key', 'utf8', function(err, data) {
 		if (err) throw err;
 
@@ -34,6 +39,109 @@ app.post('/search', function(req, res) {
 		var location = req.body.location;
 		var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + location + "&key=" + key;
 		
+		function getNearestParishes(geocode_response, callback) {
+
+			var latitude = geocode_response.results[0].geometry.location.lat;
+			var longitude = geocode_response.results[0].geometry.location.lng;
+			var response = {latitude: latitude, longitude: longitude}; // for rendering the page
+
+			function render(parish_array) {
+				res.render('map.ejs', {
+					geometry: response,
+					parishes: parish_array
+				});
+			}
+
+			// -- Haversine -- 
+			var parish_distances = [];
+
+			function distanceCalc(search_lat, search_lng, parish, callback) {
+				function radians(degree) {
+					return degree / 180 * Math.PI;
+				}
+
+				var parish_lat = Number(parish.latitude);
+				var parish_lng = Number(parish.longitude);
+						
+				var dLat = radians(search_lat - parish_lat); // distance between two latitudes, in radians
+				var dLng = radians(search_lng - parish_lng); // distance between two longitudes, in radians
+
+				// haversine formula
+				var param_a = Math.sin(dLat/2) * Math.sin(dLat/2) + 
+							  Math.cos(radians(search_lat)) * Math.cos(radians(parish_lat)) *
+							  Math.sin(dLng/2) * Math.sin(dLng/2);
+				
+				var param_c = 2 * Math.asin(Math.sqrt(param_a));
+				var distance = 3959 * param_c; 
+
+				var MAX_DIST = 25; // TODO - change this for interactivity
+				if (distance <= MAX_DIST) {
+					return [parish._id, distance];
+				}
+
+				else {
+					return false;
+				}
+			}
+
+			// -- DB operations -- 
+
+			function parishLookup() {
+				parish_list = parish_list.sort(function(a, b) {
+					return a[1] - b[1];
+				});
+				var id_list = [];
+				parish_list.forEach(function(parish) {
+					id_list.push(parish[0]);
+				})
+			
+				var parishes = [];
+				var cursor = collection.find({ _id: { $in: id_list }});
+				cursor.each(function(err, doc) {
+					console.log("Each!");
+					if (doc) {
+						parishes.push(doc);
+					}
+					else {
+						parishes.forEach(function(parish) {
+							parish_list.forEach(function(id) {
+								if (String(id[0]) == String(parish._id)) {
+									id[0] = parish;
+								};
+							});
+						});
+						parish_list = parish_list.sort(function(a, b) {
+							return a[1] - b[1];
+						});
+
+						console.log(parish_list);
+						var return_array = [];
+						parish_list.forEach(function(item) {
+							return_array.push(item[0]);
+						});
+
+						render(return_array);
+					}
+				});
+			}
+
+			var cursor = collection.find( { $where: function() { return (typeof(this.latitude) != 'undefined'); } });
+			var parish_list = [];
+			cursor.each(function(err, item) {
+				if (item) {
+					var temp = distanceCalc(latitude, longitude, item);
+					if (temp) {
+						parish_list.push(temp);
+					}
+				}
+				else {
+					parishLookup();
+				}
+			});
+
+
+		}
+
 		https.get(url, function(response_stream) {
 			var json_out = ""; // read the response into this variable
 			
@@ -43,27 +151,11 @@ app.post('/search', function(req, res) {
 
 			response_stream.on('end', function(err, data) {
 				if (err) throw err;
-				json_out = JSON.parse(json_out);
-				console.log("Received full response from Geocode");
-				var latitude = json_out.results[0].geometry.location.lat;
-				var longitude = json_out.results[0].geometry.location.lng;
 
-				// Once we have the location data, we need to prepare our response to the user
-				// We are going to give them the map page, with a map centered on the 
-				// latitude & longitude they gave us.
-				// The parish result list is going to be a list of all parishes 
-				// within a certain distance of them, ordered by closest to nearest. 
-
-				// So, in order, the actions we need to take are:
-				// 1. Look up the location the user searches & pass it to Geocode
-				// 2. Take the latitude & longitude from the geocode response and:
-				//   a. Look up the nearest parishes to that location in our database.
-				//   b. Format a JSON file with those parishes for rendering in the map.html.
-				//   c. Center the map on the lat & lng.
-				//   d. Plot parishes on the map.
-				// 3. Render the map.html with all this data and respond to the user with it. 
-				var response = { 'lat': latitude, 'lng': longitude };
-				res.render('map.ejs', { geometry: response });
+				console.log("Successfully received full response from Geocode");
+				getNearestParishes(JSON.parse(json_out), function(data) {
+					res.render('map.ejs', data);	
+				});
 			});
 		});
 	});

@@ -9,20 +9,17 @@ app.filter('phone', function() {
 });
 
 app.controller("test", ['$scope', '$http', function($scope, $http) {
-	$scope.parishes = '';
-
 	$scope.loadData = function() {
-		$http.get('/dioceses/olympia.json').then(function(data) {
-			$scope.parishes = data.data.parishes;
-			console.log($scope.parishes)
-		})
+		console.log("Loading parish JSON data for Angular...");
+		$scope.parishes = JSON.parse($('#parishes').text());
+		console.log($scope.parishes);
 	}
 }]);
 
 var map;
 var geometry = JSON.parse($('#geometry').text());
-var lat = geometry['lat'];
-var lng = geometry['lng'];
+var lat = geometry['latitude'];
+var lng = geometry['longitude'];
 
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
