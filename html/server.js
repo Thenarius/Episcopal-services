@@ -40,7 +40,6 @@ app.post('/search', function(req, res) {
 		var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + location + "&key=" + key;
 		
 		function getNearestParishes(geocode_response, callback) {
-
 			var latitude = geocode_response.results[0].geometry.location.lat;
 			var longitude = geocode_response.results[0].geometry.location.lng;
 			var response = {latitude: latitude, longitude: longitude}; // for rendering the page
