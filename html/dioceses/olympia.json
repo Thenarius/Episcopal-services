@@ -1,1563 +1,1490 @@
 {
-	"parishes": [
-	{
-		"name": "St. Andrew's Episcopal Church",
-		"city": "Aberdeen",
-		"address": "400 E. First St.",
-		"latitude": "46.978108",
-		"longitude": "-123.816253",
-		"zip": "98520",
-		"phone": "3605332511",
-		"website": "http://standrewsgh.com/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "8:00",
-						"tags": []
-					},
-					{
-						"language": "English",
-						"time": "10:30",
-						"tags": []
-					}],
-				"Wednesday": [
-					{
-						"language": "English",
-						"time": "17:15",
-						"tags": ["Rite II"]
-					}]
-			},
-			"daily_prayer": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE"
-		},
-	{
-		"name": "St. Hugh of Lincoln",
-		"city": "Allyn", 
-		"address": "280 E. Wheelwright St.",
-		"latitude": "47.377886",
-		"longitude": "-122.834390",
-		"zip": "98524",
-		"phone": "3602758450",
-		"website": "http://www.sthughchurch.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "10:00",
-						"tags": []
-					}],
-				"Thursday": [
-					{
-						"language": "English",
-						"time": "9:00",
-						"tags": ["verify"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE"
-	},
-	{
-		"name": "Christ Episcopal Church",
-		"city": "Anacortes",
-		"address": "1216 7th St.",
-		"latitude": "48.516955",
-		"longitude": "-122.616804",
-		"zip": "98221",
-		"phone": "3602935790",
-		"website": "http://www.christchurchanacortes.org/",
-		"events": {
-			"mass": {
-				"Sunday (2nd)": [
-					{
-						"language": "English",
-						"time": "8:00",
-						"tags": ["repeat-fix"]
-					}],
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "10:30",
-						"tags": []
-					},
-					{
-						"language": "English",
-						"time": "9:30",
-						"tags": ["location-fix"],
-						"alt-location": ["true", "1300 O Ave"]
-					}]
-			},
-			"daily_office": {
-				"Sunday (1st, 3rd & 4th)": {"Morning Prayer": "8:00"}
-			},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE"
-	},
-	{
-		"name": "Celebration Lutheran Church",
-		"city": "Anacortes",
-		"address": "611 R Ave.",
-		"latitude": "48.516753",
-		"longitude": "-122.609105",
-		"zip": "98221",
-		"phone": "3602993225",
-		"website": "http://www.celebrationlc.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "9:30",
-						"tags": ["verify"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE"
-	},
-	{
-		"name": "St. Matthew / San Mateo",
-		"city": "Auburn",
-		"address": "123 L St. NE",
-		"latitude": "47.309162",
-		"longitude": "-122.215265",
-		"zip": "98002",
-		"phone": "2538330890",
-		"website": "http://stmatthewsanmateo.org",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "9:00",
-						"tags": ["spoken"]
-					},
-					{
-						"language": "Bilingual (Spanish/English)",
-						"time": "11:00",
-						"tags": []
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE"
-	},
-	{
-		"name": "St. Barnabas",
-		"city": "Bainbridge Island",
-		"address": "1187 Wyatt Wy. NW",
-		"latitude": "47.628340",
-		"longitude": "-122.535586",
-		"zip": "98110",
-		"phone": "2068425601",
-		"website": "http://www.stbbi.org",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "8:00",
-						"tags": ["Rite I"]
-					},
-					{
-						"language": "English",
-						"time": "10:00", 
-						"tags": ["Rite II"]
-					}],
-				"Thursday": [{
-						"language": "English",
-						"time": "9:15",
-						"tags": ["healing"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {
-				"Tuesday": {
-					"name": "Centering Prayer",
-					"time": "9:00",
-					"tags": ["contemplative"]
-				}
-			},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Grace Church",
-		"city": "Bainbridge Island",
-		"address": "8595 NE Day Rd. E",
-		"latitude": "47.678918",
-		"longitude": "-122.535140",
-		"zip": "98110",
-		"phone": "2068429997",
-		"website": "http://www.gracehere.org",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "8:00",
-						"tags": ["Rite I"]
-					},
-					{
-						"language": "English",
-						"time": "9:30",
-						"tags": ["Rite II", "Contemporary Music", "Choral"]
-					}],
-				"Wednesday": [
-					{
-						"language": "English",
-						"time": "10:30",
-						"tags": ["healing"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Church of the Holy Spirit",
-		"city": "Battle Ground",
-		"address": "NW 9th Ave & NW 24th St.",
-		"latitude": "45.798418",
-		"longitude": "-122.546689",
-		"zip": "98604",
-		"phone": "3606873301",
-		"website": "http://www.holyspiritbg.com",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "10:00",
-						"tags": ["verify"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE" 
-	},
-	{
-		"name": "Church of the Resurrection",
-		"city": "Bellevue",
-		"address": "15220 Main St.",
-		"latitude": "47.610696",
-		"longitude": "-122.136630",
-		"zip": "98007",
-		"phone": "4257460322",
-		"website": "http://www.resurrectionbellevue.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "8:00",
-						"tags": ["Rite I"]
-					},
-					{
-						"language": "English",
-						"time": "10:00",
-						"tags": ["Rite II"]
-					}],
-				"Thursday": [
-					{
-						"language": "English",
-						"time": "12:00",
-						"tags": ["Rite II"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Thursday": "10:30"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Margaret's Episcopal Church",
-		"city": "Bellevue",
-		"address": "4228 Factoria Blvd. SE",
-		"latitude": "47.568788",
-		"longitude": "-122.168914",
-		"zip": "98006",
-		"phone": "4257466650",
-		"website": "http://saintmargarets.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "7:15", 
-						"tags": ["Contemplative"]
-					},
-					{
-						"language": "English",
-						"time": "8:45",
-						"tags": ["Contemporary Music"]
-					},
-					{
-						"language": "English",
-						"time": "11:00",
-						"tags": ["Traditional Music"]
-					}],
-				"Tuesday": [
-					{
-						"language": "English",
-						"time": "6:00", 
-						"tags": ["location-fix"],
-						"alt-location": ["true", "Chapel"]
-					}],
-				"Wednesday": [
-					{
-						"language": "English",
-						"time": "9:30", 
-						"tags": ["location-fix"],
-						"alt-location": ["true", "Chapel"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Church of the Holy Apostles",
-		"city": "Bellevue",
-		"address": "15220 Main St.",
-		"zip": "98007",
-		"phone": "4253511423",
-		"website": "http://holyapostles-wa.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "12:00",
-						"tags": ["verify", "bilingual?"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE"
-	},
-	{
-		"name": "All Saints Episcopal Church",
-		"city": "Bellevue",
-		"address": "1307 120th Ave NE",
-		"zip": "98005",
-		"phone": "4256461136",
-		"website": "http://www.allsaintsbellevue.org",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{	"language": "English",
-						"time": "9:30",
-						"tags": []
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Paul's Episcopal Church",
-		"city": "Bellingham",
-		"address": "2117 Walnut St",
-		"zip": "98225",
-		"phone": "3607332890",
-		"website": "http://www.stpaulsbellingham.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "7:45",
-						"tags": ["Contemplative", "Spoken", "Rite II"]
-					},
-					{
-						"language": "English",
-						"time": "9:00",
-						"tags": ["Casual", "Contemporary Music"]
-					},
-					{
-						"language": "English",
-						"time": "10:30",
-						"tags": ["Formal", "High-Church", "Traditional Music", "Rite II", "Choral"]
-					}],
-				"Wednesday": [
-					{
-						"language": "English",
-						"time": "6:30",
-						"tags": []
-					},
-					{
-						"language": "English",
-						"time": "17:30",
-						"tags": []
-					}],
-				"Thursday": [
-					{
-						"language": "English",
-						"time": "10:00",
-						"tags": ["healing"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {
-				"Thursday": {
-					"name": "Contemplative Prayer",
-					"time": "17:30",
-					"tags": ["Contemplative"]
-				}
-			},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Christ Episcopal Church",
-		"city": "Blaine",
-		"address": "382 Boblett St",
-		"zip": "98230",
-		"phone": "3603324113",
-		"website": "http://christchurchblaine.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "10:00",
-						"tags": []
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Paul's Episcopal Church",
-		"city": "Bremerton",
-		"address": "700 Callahan Dr",
-		"zip": "98130",
-		"phone": "3603770106",
-		"website": "http://www.stpaulsbremerton.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "8:00", 
-						"tags": ["Spoken"]
-					},
-					{
-						"language": "English",
-						"time": "10:15",
-						"tags": ["Choral"]
-					}],
-				"Thursday": [
-					{
-						"language": "English",
-						"time": "10:00",
-						"tags": ["Healing"]
-					}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Wednesday": "10:00"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Elizabeth",
-		"city": "Burien",
-		"address": "1005 SW 152nd St",
-		"zip": "98166",
-		"phone": "2062436844",
-		"website": "https://stelizabethburien.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "10:00",
-						"tags": []
-					}]
-			},
-			"daily_office": {
-				"Wednesday": {
-					"Evening Prayer": "17:30"
-				}	
-			},
-			"prayer_service": {
-				"Saturday": {
-					"name": "Centering Prayer",
-					"time": "8:00",
-					"tags": ["Contemplative"]
-				}
-			},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Iglesia Santa Isabel",
-		"city": "Burien",
-		"address": "1005 SW 152nd St",
-		"zip": "98166",
-		"phone": "2062436844",
-		"website": "https://stelizabethburien.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-					"language": "Español",
-					"time": "17:00",
-					"tags": []
-				}]
-			},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Aidan Episcopal Church",
-		"city": "Camano Island",
-		"address": "1318 E State Rd",
-		"zip": "98282",
-		"phone": "3606293969",
-		"website": "http://www.staidancamanoisland.org/",
-		"events": {
-			"mass": {
-				"Sunday": [
-					{
-						"language": "English",
-						"time": "8:00",
-						"tags": ["Rite I"]
-					},
-					{
-						"language": "English",
-						"time": "10:00",
-						"tags": ["Rite II"]
-					}],
-				"Wednesday": [{
-						"language": "English",
-						"time": "10:00",
-						"tags": ["Healing", "Rite I"]
-					}]
-				},
-			"daily_office": {
-					"Sunday (2nd & 4th)": {
-						"Morning Prayer": "8:00"
-					}
-				},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Matthew Episcopal Church",
-		"city": "Castle Rock",
-		"address": "412 Pioneer Ave",
-		"zip": "98611",
-		"phone": "3602749393",
-		"website": "http://stmatthewcastlerock.org/",
-		"events": {
-			"mass": {
-					"Sunday" : [
-						{
-							"language": "English",
-							"time": "10:00",
-							"tags": []
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE" 
-	},
-	{
-		"name": "St. James Episcopal Church",
-		"city": "Cathlamet",
-		"address": "1134 Columbia St",
-		"zip": "98612",
-		"phone": "3607958612",
-		"website": "http://stjamescathlamet.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-						"language": "English",
-						"time": "10:00",
-						"tags": []
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Timothy Episcopal Church",
-		"city": "Chehalis",
-		"address": "1826 SW Snively Ave",
-		"zip": "98532",
-		"phone": "3607488232",
-		"website": "http://sttimothychehalis.org/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{
-							"language": "English",
-							"time": "8:00",
-							"tags": []
-						},
-						{
-							"language": "English",
-							"time": "10:00",
-							"tags": ["Choral"]
-						}],
-					"Wednesday" : [
-						{
-							"language": "English",
-							"time": "12:00",
-							"tags": ["Healing"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Sunday": "9:00"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Church of the Transfiguration",
-		"city": "Darrington",
-		"address": "840 Commercial St",
-		"zip": "98241",
-		"phone": "3604361815",
-		"website": "http://transfigurationdarrington.org/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{ 
-							"language": "English",
-							"time": "10:00",
-							"tags": []
-						}
-					]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Emmanuel Episcopal Parish",
-		"city": "Eastsound",
-		"address": "242 Main St",
-		"zip": "98245",
-		"phone": "3603762352",
-		"website": "http://orcasepiscopal.org/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Rite I"]
-						},
-						{
-							"language": "English",
-							"time": "10:00",
-							"tags": ["Rite II"]
-						}],
-					"Thursday": [
-						{
-							"language": "English",
-							"time": "12:15",
-							"tags": []
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {
-					"Saturday": {
-						"name": "Centering Prayer",
-						"time": "9:30",
-						"tags": ["Contemplative"]
-					}
-				},
-			"bible_study": {
-					"Thursday": [
-						{
-							"language": "English",
-							"time": "12:45",
-							"tags": []
-						}]
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Alban's Episcopal Church",
-		"city": "Edmonds",
-		"address": "21405 82nd Pl W",
-		"zip": "98026",
-		"phone": "4257780371",
-		"website": "http://stalbansedmonds.org/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{
-							"language": "English",
-							"time": "8:00",
-							"tags": []
-						},
-						{
-							"language": "English",
-							"time": "10:30",
-							"tags": []
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Hilda St. Patrick Episcopal Church",
-		"city": "Edmonds",
-		"address": "15224 52nd Ave W",
-		"zip": "98026",
-		"phone": "4257434655",
-		"website": "http://www.sthildastpatrick.org/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{
-							"language": "English",
-							"time": "9:30",
-							"tags": ["Rite II"]
-						}],
-					"Wednesday": [{
-							"language": "English",
-							"time": "13:00",
-							"tags": ["Spoken"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE" 
-	},
-	{
-		"name": "St. Luke's Episcopal Church",
-		"city": "Elma",
-		"address": "626 W Young St",
-		"zip": "98541",
-		"phone": "3604824310",
-		"website": "http://saintlukeselma.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-							"language": "English",
-							"time": "11:00",
-							"tags": []
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Trinity Everett",
-		"city": "Everett",
-		"address": "2301 Hoyt Ave",
-		"zip": "98201",
-		"phone": "4252524129",
-		"website": "http://www.trinityeverett.org/",
-		"events": {
-			"mass": {
-					"Sunday" : [{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Rite I"]
-						},
-						{
-							"language": "English",
-							"time": "10:00", 
-							"tags": ["Rite II", "Choral"]
-						},
-						{
-							"language": "English",
-							"time": "17:30",
-							"tags": ["Contemplative", "Spoken", "Rite II"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Church of the Good Shepherd",
-		"city": "Federal Way",
-		"address": "345 S 312th St",
-		"zip": "98003",
-		"phone": "2538396100",
-		"website": "http://www.goodshepherdfw.org/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Rite I"]
-						},
-						{
-							"language": "English",
-							"time": "10:30",
-							"tags": ["Rite II"]
-						}],
-					"Sunday (5th only)": [
-						{
-							"language": "English",
-							"time": "9:30",
-							"tags": []
-						}
-					]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Sunday": "9:15"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Swithin's Episcopal Church",
-		"city": "Forks",
-		"address": "250 Blackberry Ave",
-		"zip": "98331",
-		"phone": "3604574862",
-		"website": "#",
-		"events": {
-			"mass": {
-					"Sunday (2nd & 4th)": [{
-							"language": "English",
-							"time": "17:00",
-							"tags": []
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE" 
-	},
-	{
-		"name": "St. Augustine's-in-the-Woods Episcopal Church",
-		"city": "Freeland",
-		"address": "5217 S Honeymoon Bay Rd",
-		"zip": "98249",
-		"phone": "3603314887",
-		"website": "http://staugustinesepiscopalchurch.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Rite I", "Spoken"]
-						},
-						{
-							"language": "English",
-							"time": "10:30",
-							"tags": ["Rite II"]
-						}],
-					"Wednesday": [{
-							"language": "English",
-							"time": "10:00",
-							"tags": ["Healing"]
-						}]
-				},
-			"daily_office": {
-					"Monday": {
-						"name": "Evensong",
-						"time": "17:30",
-						"tags": ["Incense"]
-					}
-				},
-			"prayer_service": {},
-			"bible_study": {
-					"Sunday": "9:15"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. David's Episcopal Church",
-		"city": "Friday Harbor",
-		"address": "780 Park St",
-		"zip": "98250",
-		"phone": "3603785360",
-		"website": "http://www.saintdavidsepiscopal.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Traditional"]
-						},
-						{
-							"language": "English",
-							"time": "9:30",
-							"tags": ["Contemporary"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. John's Episcopal Church",
-		"city": "Gig Harbor",
-		"address": "7701 Skansie Ave",
-		"zip": "98335",
-		"phone": "2538583777",
-		"website": "http://stjohnsgigharbor.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Spoken"]
-						},
-						{
-							"language": "English",
-							"time": "10:00",
-							"tags": ["Choral"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Sunday" : "9:00"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Germain Episcopal Church",
-		"city": "Hoodsport",
-		"address": "600 North Lake Cushman Rd",
-		"zip": "98548",
-		"phone": "3608779879",
-		"website": "http://stgermainhoodsport.org/",
-		"events": {
-			"mass": {
-					"Sunday" : [
-						{
-							"language": "English",
-							"time": "10:00",
-							"tags": []
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Michael and All Angels",
-		"city": "Issaquah",
-		"address": "325 SE Darst St",
-		"zip": "98027",
-		"phone": "4253923215",
-		"website": "http://www.stmichaels-issaquah.org/stmichaels/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Rite I"]
-						},
-						{
-							"language": "English",
-							"time": "9:15",
-							"tags": ["Rite II"]
-						},
-						{
-							"language": "English",
-							"time": "11:00",
-							"tags": ["Rite II"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-					"Sunday": "10:25"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Church of the Redeemer",
-		"city": "Kenmore",
-		"address": "6211 NE 182nd St",
-		"zip": "98028",
-		"phone": "4254863777",
-		"website": "http://redeemer-kenmore.org/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Rite I", "Spoken"]
-						},
-						{
-							"language": "English",
-							"time": "10:30",
-							"tags": ["Rite II", "Choral"]
-						}],
-					"Tuesday": [{
-							"language": "English",
-							"time": "19:00",
-							"tags": ["Spoken"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Sunday": "9:30"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE" 
-	},
-	{
-		"name": "St. James Episcopal Church",
-		"city": "Kent",
-		"address": "24447 94th Ave S",
-		"zip": "98030",
-		"phone": "2538524450",
-		"website": "http://stjameskent.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Rite I"]
-						},
-						{
-							"language": "English",
-							"time": "10:30",
-							"tags": ["Rite II", "Choral"]
-						},
-						{
-							"language": "English",
-							"time": "17:00",
-							"tags": ["Contemporary"]
-						}],
-					"Wednesday": [{
-							"language": "English",
-							"time": "10:00",
-							"tags": ["Rite I"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2012-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Columba Episcopal Church",
-		"city": "Kent",
-		"address": "26715 Military Rd S",
-		"zip": "98032",
-		"phone": "2538549912",
-		"website": "http://www.stcolumbakent.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Contemplative"]
-						},
-						{
-							"language": "English",
-							"time": "10:00",
-							"tags": ["Choral"]
-						}],
-					"Wednesday": [{
-							"language": "English",
-							"time": "18:30",
-							"tags": ["Healing"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Sunday": "9:00"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE" 
-	},
-	{
-		"name": "St. John's Episcopal Community",
-		"city": "Kirkland",
-		"address": "105 State St",
-		"zip": "98033",
-		"phone": "4258273077",
-		"website": "http://www.stjohnskirkland.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["Rite I"]
-						},
-						{
-							"language": "English",
-							"time": "10:00",
-							"tags": ["Rite II", "Formal", "High-Church"]
-						}],
-					"Wednesday": [{
-							"language": "English",
-							"time": "10:30",
-							"tags": ["Rite II"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{	
-		"name": "St. Benedict Episcopal Church",
-		"city": "Lacey",
-		"address": "910 Bowker St",
-		"zip": "98503",
-		"phone": "3604562240",
-		"website": "http://www.stbenedictlacey.org/",
-		"events": {
-			"mass": {
-					"Sunday": [{
-							"language": "English",
-							"time": "9:30",
-							"tags": []
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "",
-		"flag_for_outreach": "TRUE" 
-	},
-	{
-		"name": "St. Mary's Episcopal Church",
-		"city": "Lakewood",
-		"address": "10630 Gravelly Lake Dr SW",
-		"zip": "98499",
-		"phone": "2535886621",
-		"website": "http://www.stmaryslw.org/",
-		"events": {
-			"mass": {
-					"Sunday": [
-						{
-							"language": "English",
-							"time": "8:00",
-							"tags": ["inconsistent_data"]
-						},
-						{
-							"language": "English",
-							"time": "10:00",
-							"tags": []
-						}],
-					"Wednesday": [{
-							"language": "English",
-							"time": "11:00",
-							"tags": ["Healing"]
-						}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Wednesday (except 2nd)": "12:00"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "TRUE" 
-	},
-	{
-		"name": "St. Joseph - St. John Episcopal Church",
-		"city": "Lakewood",
-		"address": "11111 Military Rd SW",
-		"zip": "98498",
-		"phone": "2535846143",
-		"website": "http://www.stjoseph-stjohn.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "10:30",
-						"tags": []
-					}],
-				"Wednesday": [{
-						"language": "English",
-						"time": "10:00",
-						"tags": ["Healing"]
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Stephen's Episcopal Church",
-		"city": "Longview",
-		"address": "1428 22nd Ave",
-		"zip": "98632",
-		"phone": "3604235600",
-		"website": "http://www.sslv.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "10:30",
-						"tags": []
-					}],
-				"Sunday (1st & 3rd)": [{
-						"language": "English",
-						"time": "8:00",
-						"alt-location": ["true", "chapel"],
-						"tags": ["Contemplative", "Traditional", "location-fix"]
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Sunday": "9:00"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Grace Church",
-		"city": "Lopez Island",
-		"address": "70 Sunset Ln",
-		"zip": "98261",
-		"phone": "3604683477",
-		"website": "http://gracelopezisland.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "10:00",
-						"tags": []
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. George Episcopal Church",
-		"city": "Maple Valley",
-		"address": "24219 Witte Rd SE",
-		"zip": "98038",
-		"phone": "4254325481",
-		"website": "http://www.saintgeorgemv.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "9:00",
-						"tags": ["Rite I"]
-					},
-					{
-						"language": "English",
-						"time": "11:00",
-						"tags": ["Rite II"]
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Philip's Episcopal Church",
-		"city": "Marysville",
-		"address": "4312 84th St NE",
-		"zip": "98270",
-		"phone": "3606591727",
-		"website": "http://www.saint-philips.org/online/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "8:30",
-						"tags": ["Contemplative"]
-					},
-					{
-						"language": "English",
-						"time": "10:00",
-						"tags": []
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Sunday": "9:05"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Thomas Episcopal Church",
-		"city": "Medina",
-		"address": "8398 NE 12th St",
-		"zip": "98029",
-		"phone": "4254549541",
-		"website": "http://www.stthomasmedina.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "8:00",
-						"tags": ["Contemplative"]
-					},
-					{
-						"language": "English",
-						"time": "10:15",
-						"tags": ["Choral"]
-					}],
-				"Wednesday": [{
-						"language": "English",
-						"time": "10:00",
-						"tags": ["Healing"]
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {
-				"Monday": {
-						"name": "Centering Prayer",
-						"time": "9:00",
-						"tags": ["Contemplative"]
-					},
-				"Saturday": {
-						"name": "Centering Prayer",
-						"time": "9:00",
-						"tags": ["Contemplative"]
-					}
-				},
-			"bible_study": {
-				"Sunday": "9:15",
-				"Tuesday": "10:45"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Emmanuel Church",
-		"city": "Mercer Island",
-		"address": "4400 86th Ave SE",
-		"zip": "98040",
-		"phone": "2062321572",
-		"website": "http://emmanuelmi.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "8:00",
-						"tags": ["Rite I"]
-					},
-					{
-						"language": "English",
-						"time": "10:30",
-						"tags": ["Rite II"]
-					}],
-				"Wednesday": [{
-						"language": "English",
-						"time": "9:30",
-						"tags": ["Healing"]
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {
-				"Sunday": "9:15"
-			}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "Church of our Saviour",
-		"city": "Monroe",
-		"address": "331 Lewis St",
-		"zip": "98272",
-		"phone": "3607934216",
-		"website": "http://www.monroeepiscopal.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "10:00",
-						"tags": []
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Mark's Episcopal Church",
-		"city": "Montesano",
-		"address": "124 N Sylvia",
-		"zip": "98563",
-		"phone": "3602493281",
-		"website": "http://www.stmarksmonte.com/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "10:00",
-						"tags": []
-					}]
-				},
-			"daily_office": {},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	},
-	{
-		"name": "St. Paul Episcopal Church",
-		"city": "Mount Vernon",
-		"address": "415 S 18th St",
-		"zip": "98274",
-		"phone": "3604241822",
-		"website": "http://www.stpaulsmv.org/",
-		"events": {
-			"mass": {
-				"Sunday": [{
-						"language": "English",
-						"time": "11:00",
-						"tags": []
-					}],
-				"Sunday (1st)": [{
-						"language": "English",
-						"time": "8:00",
-						"tags": []
-					}]
-				},
-			"daily_office": {
-				"Sunday (2nd, 3rd & 4th)": {
-						"Morning Prayer": "8:00"
-					}
-				},
-			"prayer_service": {},
-			"bible_study": {}
-		},
-		"last_updated": "2016-05-19",
-		"flag_for_outreach": "FALSE" 
-	}
-]}
+    "parishes": [{
+        "name": "St. Andrew's Episcopal Church",
+        "city": "Aberdeen",
+        "address": "400 E. First St.",
+        "latitude": "46.978108",
+        "longitude": "-123.816253",
+        "zip": "98520",
+        "phone": "3605332511",
+        "website": "http://standrewsgh.com/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": []
+                }, {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": []
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "17:15",
+                    "tags": ["Rite II"]
+                }]
+            },
+            "daily_prayer": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Hugh of Lincoln",
+        "city": "Allyn",
+        "address": "280 E. Wheelwright St.",
+        "latitude": "47.377886",
+        "longitude": "-122.834390",
+        "zip": "98524",
+        "phone": "3602758450",
+        "website": "http://www.sthughchurch.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }],
+                "Thursday": [{
+                    "language": "English",
+                    "time": "9:00",
+                    "tags": ["verify"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Christ Episcopal Church",
+        "city": "Anacortes",
+        "address": "1216 7th St.",
+        "latitude": "48.516955",
+        "longitude": "-122.616804",
+        "zip": "98221",
+        "phone": "3602935790",
+        "website": "http://www.christchurchanacortes.org/",
+        "events": {
+            "mass": {
+                "Sunday (2nd)": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["repeat-fix"]
+                }],
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": []
+                }, {
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": ["location-fix"],
+                    "alt-location": ["true", "1300 O Ave"]
+                }]
+            },
+            "daily_office": {
+                "Sunday (1st, 3rd & 4th)": {
+                    "Morning Prayer": "8:00"
+                }
+            },
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Celebration Lutheran Church",
+        "city": "Anacortes",
+        "address": "611 R Ave.",
+        "latitude": "48.516753",
+        "longitude": "-122.609105",
+        "zip": "98221",
+        "phone": "3602993225",
+        "website": "http://www.celebrationlc.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": ["verify"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. Matthew / San Mateo",
+        "city": "Auburn",
+        "address": "123 L St. NE",
+        "latitude": "47.309162",
+        "longitude": "-122.215265",
+        "zip": "98002",
+        "phone": "2538330890",
+        "website": "http://stmatthewsanmateo.org",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "9:00",
+                    "tags": ["spoken"]
+                }, {
+                    "language": "Bilingual (Spanish/English)",
+                    "time": "11:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. Barnabas",
+        "city": "Bainbridge Island",
+        "address": "1187 Wyatt Wy. NW",
+        "latitude": "47.628340",
+        "longitude": "-122.535586",
+        "zip": "98110",
+        "phone": "2068425601",
+        "website": "http://www.stbbi.org",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Rite II"]
+                }],
+                "Thursday": [{
+                    "language": "English",
+                    "time": "9:15",
+                    "tags": ["healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {
+                "Tuesday": {
+                    "name": "Centering Prayer",
+                    "time": "9:00",
+                    "tags": ["contemplative"]
+                }
+            },
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Grace Church",
+        "city": "Bainbridge Island",
+        "address": "8595 NE Day Rd. E",
+        "latitude": "47.678918",
+        "longitude": "-122.535140",
+        "zip": "98110",
+        "phone": "2068429997",
+        "website": "http://www.gracehere.org",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": ["Rite II", "Contemporary Music", "Choral"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Church of the Holy Spirit",
+        "city": "Battle Ground",
+        "address": "NW 9th Ave & NW 24th St.",
+        "latitude": "45.798418",
+        "longitude": "-122.546689",
+        "zip": "98604",
+        "phone": "3606873301",
+        "website": "http://www.holyspiritbg.com",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["verify"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "Church of the Resurrection",
+        "city": "Bellevue",
+        "address": "15220 Main St.",
+        "latitude": "47.610696",
+        "longitude": "-122.136630",
+        "zip": "98007",
+        "phone": "4257460322",
+        "website": "http://www.resurrectionbellevue.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Rite II"]
+                }],
+                "Thursday": [{
+                    "language": "English",
+                    "time": "12:00",
+                    "tags": ["Rite II"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Thursday": "10:30"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Margaret's Episcopal Church",
+        "city": "Bellevue",
+        "address": "4228 Factoria Blvd. SE",
+        "latitude": "47.568788",
+        "longitude": "-122.168914",
+        "zip": "98006",
+        "phone": "4257466650",
+        "website": "http://saintmargarets.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "7:15",
+                    "tags": ["Contemplative"]
+                }, {
+                    "language": "English",
+                    "time": "8:45",
+                    "tags": ["Contemporary Music"]
+                }, {
+                    "language": "English",
+                    "time": "11:00",
+                    "tags": ["Traditional Music"]
+                }],
+                "Tuesday": [{
+                    "language": "English",
+                    "time": "6:00",
+                    "tags": ["location-fix"],
+                    "alt-location": ["true", "Chapel"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": ["location-fix"],
+                    "alt-location": ["true", "Chapel"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Church of the Holy Apostles",
+        "city": "Bellevue",
+        "address": "15220 Main St.",
+        "zip": "98007",
+        "phone": "4253511423",
+        "website": "http://holyapostles-wa.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "12:00",
+                    "tags": ["verify", "bilingual?"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "All Saints Episcopal Church",
+        "city": "Bellevue",
+        "address": "1307 120th Ave NE",
+        "zip": "98005",
+        "phone": "4256461136",
+        "website": "http://www.allsaintsbellevue.org",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Paul's Episcopal Church",
+        "city": "Bellingham",
+        "address": "2117 Walnut St",
+        "zip": "98225",
+        "phone": "3607332890",
+        "website": "http://www.stpaulsbellingham.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "7:45",
+                    "tags": ["Contemplative", "Spoken", "Rite II"]
+                }, {
+                    "language": "English",
+                    "time": "9:00",
+                    "tags": ["Casual", "Contemporary Music"]
+                }, {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["Formal", "High-Church", "Traditional Music", "Rite II", "Choral"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "6:30",
+                    "tags": []
+                }, {
+                    "language": "English",
+                    "time": "17:30",
+                    "tags": []
+                }],
+                "Thursday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {
+                "Thursday": {
+                    "name": "Contemplative Prayer",
+                    "time": "17:30",
+                    "tags": ["Contemplative"]
+                }
+            },
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Christ Episcopal Church",
+        "city": "Blaine",
+        "address": "382 Boblett St",
+        "zip": "98230",
+        "phone": "3603324113",
+        "website": "http://christchurchblaine.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Paul's Episcopal Church",
+        "city": "Bremerton",
+        "address": "700 Callahan Dr",
+        "zip": "98130",
+        "phone": "3603770106",
+        "website": "http://www.stpaulsbremerton.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Spoken"]
+                }, {
+                    "language": "English",
+                    "time": "10:15",
+                    "tags": ["Choral"]
+                }],
+                "Thursday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Wednesday": "10:00"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Elizabeth",
+        "city": "Burien",
+        "address": "1005 SW 152nd St",
+        "zip": "98166",
+        "phone": "2062436844",
+        "website": "https://stelizabethburien.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {
+                "Wednesday": {
+                    "Evening Prayer": "17:30"
+                }
+            },
+            "prayer_service": {
+                "Saturday": {
+                    "name": "Centering Prayer",
+                    "time": "8:00",
+                    "tags": ["Contemplative"]
+                }
+            },
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Iglesia Santa Isabel",
+        "city": "Burien",
+        "address": "1005 SW 152nd St",
+        "zip": "98166",
+        "phone": "2062436844",
+        "website": "https://stelizabethburien.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "Español",
+                    "time": "17:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Aidan Episcopal Church",
+        "city": "Camano Island",
+        "address": "1318 E State Rd",
+        "zip": "98282",
+        "phone": "3606293969",
+        "website": "http://www.staidancamanoisland.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Rite II"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Healing", "Rite I"]
+                }]
+            },
+            "daily_office": {
+                "Sunday (2nd & 4th)": {
+                    "Morning Prayer": "8:00"
+                }
+            },
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Matthew Episcopal Church",
+        "city": "Castle Rock",
+        "address": "412 Pioneer Ave",
+        "zip": "98611",
+        "phone": "3602749393",
+        "website": "http://stmatthewcastlerock.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. James Episcopal Church",
+        "city": "Cathlamet",
+        "address": "1134 Columbia St",
+        "zip": "98612",
+        "phone": "3607958612",
+        "website": "http://stjamescathlamet.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Timothy Episcopal Church",
+        "city": "Chehalis",
+        "address": "1826 SW Snively Ave",
+        "zip": "98532",
+        "phone": "3607488232",
+        "website": "http://sttimothychehalis.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": []
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Choral"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "12:00",
+                    "tags": ["Healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:00"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Church of the Transfiguration",
+        "city": "Darrington",
+        "address": "840 Commercial St",
+        "zip": "98241",
+        "phone": "3604361815",
+        "website": "http://transfigurationdarrington.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Emmanuel Episcopal Parish",
+        "city": "Eastsound",
+        "address": "242 Main St",
+        "zip": "98245",
+        "phone": "3603762352",
+        "website": "http://orcasepiscopal.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Rite II"]
+                }],
+                "Thursday": [{
+                    "language": "English",
+                    "time": "12:15",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {
+                "Saturday": {
+                    "name": "Centering Prayer",
+                    "time": "9:30",
+                    "tags": ["Contemplative"]
+                }
+            },
+            "bible_study": {
+                "Thursday": [{
+                    "language": "English",
+                    "time": "12:45",
+                    "tags": []
+                }]
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Alban's Episcopal Church",
+        "city": "Edmonds",
+        "address": "21405 82nd Pl W",
+        "zip": "98026",
+        "phone": "4257780371",
+        "website": "http://stalbansedmonds.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": []
+                }, {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Hilda St. Patrick Episcopal Church",
+        "city": "Edmonds",
+        "address": "15224 52nd Ave W",
+        "zip": "98026",
+        "phone": "4257434655",
+        "website": "http://www.sthildastpatrick.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": ["Rite II"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "13:00",
+                    "tags": ["Spoken"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. Luke's Episcopal Church",
+        "city": "Elma",
+        "address": "626 W Young St",
+        "zip": "98541",
+        "phone": "3604824310",
+        "website": "http://saintlukeselma.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "11:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Trinity Everett",
+        "city": "Everett",
+        "address": "2301 Hoyt Ave",
+        "zip": "98201",
+        "phone": "4252524129",
+        "website": "http://www.trinityeverett.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Rite II", "Choral"]
+                }, {
+                    "language": "English",
+                    "time": "17:30",
+                    "tags": ["Contemplative", "Spoken", "Rite II"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Church of the Good Shepherd",
+        "city": "Federal Way",
+        "address": "345 S 312th St",
+        "zip": "98003",
+        "phone": "2538396100",
+        "website": "http://www.goodshepherdfw.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["Rite II"]
+                }],
+                "Sunday (5th only)": [{
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:15"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Swithin's Episcopal Church",
+        "city": "Forks",
+        "address": "250 Blackberry Ave",
+        "zip": "98331",
+        "phone": "3604574862",
+        "website": "#",
+        "events": {
+            "mass": {
+                "Sunday (2nd & 4th)": [{
+                    "language": "English",
+                    "time": "17:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. Augustine's-in-the-Woods Episcopal Church",
+        "city": "Freeland",
+        "address": "5217 S Honeymoon Bay Rd",
+        "zip": "98249",
+        "phone": "3603314887",
+        "website": "http://staugustinesepiscopalchurch.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I", "Spoken"]
+                }, {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["Rite II"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Healing"]
+                }]
+            },
+            "daily_office": {
+                "Monday": {
+                    "name": "Evensong",
+                    "time": "17:30",
+                    "tags": ["Incense"]
+                }
+            },
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:15"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. David's Episcopal Church",
+        "city": "Friday Harbor",
+        "address": "780 Park St",
+        "zip": "98250",
+        "phone": "3603785360",
+        "website": "http://www.saintdavidsepiscopal.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Traditional"]
+                }, {
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": ["Contemporary"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. John's Episcopal Church",
+        "city": "Gig Harbor",
+        "address": "7701 Skansie Ave",
+        "zip": "98335",
+        "phone": "2538583777",
+        "website": "http://stjohnsgigharbor.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Spoken"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Choral"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:00"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Germain Episcopal Church",
+        "city": "Hoodsport",
+        "address": "600 North Lake Cushman Rd",
+        "zip": "98548",
+        "phone": "3608779879",
+        "website": "http://stgermainhoodsport.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Michael and All Angels",
+        "city": "Issaquah",
+        "address": "325 SE Darst St",
+        "zip": "98027",
+        "phone": "4253923215",
+        "website": "http://www.stmichaels-issaquah.org/stmichaels/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "9:15",
+                    "tags": ["Rite II"]
+                }, {
+                    "language": "English",
+                    "time": "11:00",
+                    "tags": ["Rite II"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "10:25"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Church of the Redeemer",
+        "city": "Kenmore",
+        "address": "6211 NE 182nd St",
+        "zip": "98028",
+        "phone": "4254863777",
+        "website": "http://redeemer-kenmore.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I", "Spoken"]
+                }, {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["Rite II", "Choral"]
+                }],
+                "Tuesday": [{
+                    "language": "English",
+                    "time": "19:00",
+                    "tags": ["Spoken"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:30"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. James Episcopal Church",
+        "city": "Kent",
+        "address": "24447 94th Ave S",
+        "zip": "98030",
+        "phone": "2538524450",
+        "website": "http://stjameskent.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["Rite II", "Choral"]
+                }, {
+                    "language": "English",
+                    "time": "17:00",
+                    "tags": ["Contemporary"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Rite I"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2012-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Columba Episcopal Church",
+        "city": "Kent",
+        "address": "26715 Military Rd S",
+        "zip": "98032",
+        "phone": "2538549912",
+        "website": "http://www.stcolumbakent.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Contemplative"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Choral"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "18:30",
+                    "tags": ["Healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:00"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. John's Episcopal Community",
+        "city": "Kirkland",
+        "address": "105 State St",
+        "zip": "98033",
+        "phone": "4258273077",
+        "website": "http://www.stjohnskirkland.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Rite II", "Formal", "High-Church"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["Rite II"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Benedict Episcopal Church",
+        "city": "Lacey",
+        "address": "910 Bowker St",
+        "zip": "98503",
+        "phone": "3604562240",
+        "website": "http://www.stbenedictlacey.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. Mary's Episcopal Church",
+        "city": "Lakewood",
+        "address": "10630 Gravelly Lake Dr SW",
+        "zip": "98499",
+        "phone": "2535886621",
+        "website": "http://www.stmaryslw.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["inconsistent_data"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "11:00",
+                    "tags": ["Healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Wednesday (except 2nd)": "12:00"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "TRUE",
+        "state": "WA"
+    }, {
+        "name": "St. Joseph - St. John Episcopal Church",
+        "city": "Lakewood",
+        "address": "11111 Military Rd SW",
+        "zip": "98498",
+        "phone": "2535846143",
+        "website": "http://www.stjoseph-stjohn.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": []
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Stephen's Episcopal Church",
+        "city": "Longview",
+        "address": "1428 22nd Ave",
+        "zip": "98632",
+        "phone": "3604235600",
+        "website": "http://www.sslv.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": []
+                }],
+                "Sunday (1st & 3rd)": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "alt-location": ["true", "chapel"],
+                    "tags": ["Contemplative", "Traditional", "location-fix"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:00"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Grace Church",
+        "city": "Lopez Island",
+        "address": "70 Sunset Ln",
+        "zip": "98261",
+        "phone": "3604683477",
+        "website": "http://gracelopezisland.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. George Episcopal Church",
+        "city": "Maple Valley",
+        "address": "24219 Witte Rd SE",
+        "zip": "98038",
+        "phone": "4254325481",
+        "website": "http://www.saintgeorgemv.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "9:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "11:00",
+                    "tags": ["Rite II"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Philip's Episcopal Church",
+        "city": "Marysville",
+        "address": "4312 84th St NE",
+        "zip": "98270",
+        "phone": "3606591727",
+        "website": "http://www.saint-philips.org/online/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:30",
+                    "tags": ["Contemplative"]
+                }, {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:05"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Thomas Episcopal Church",
+        "city": "Medina",
+        "address": "8398 NE 12th St",
+        "zip": "98029",
+        "phone": "4254549541",
+        "website": "http://www.stthomasmedina.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Contemplative"]
+                }, {
+                    "language": "English",
+                    "time": "10:15",
+                    "tags": ["Choral"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {
+                "Monday": {
+                    "name": "Centering Prayer",
+                    "time": "9:00",
+                    "tags": ["Contemplative"]
+                },
+                "Saturday": {
+                    "name": "Centering Prayer",
+                    "time": "9:00",
+                    "tags": ["Contemplative"]
+                }
+            },
+            "bible_study": {
+                "Sunday": "9:15",
+                "Tuesday": "10:45"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Emmanuel Church",
+        "city": "Mercer Island",
+        "address": "4400 86th Ave SE",
+        "zip": "98040",
+        "phone": "2062321572",
+        "website": "http://emmanuelmi.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                }, {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["Rite II"]
+                }],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": ["Healing"]
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {
+                "Sunday": "9:15"
+            }
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "Church of our Saviour",
+        "city": "Monroe",
+        "address": "331 Lewis St",
+        "zip": "98272",
+        "phone": "3607934216",
+        "website": "http://www.monroeepiscopal.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Mark's Episcopal Church",
+        "city": "Montesano",
+        "address": "124 N Sylvia",
+        "zip": "98563",
+        "phone": "3602493281",
+        "website": "http://www.stmarksmonte.com/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }, {
+        "name": "St. Paul Episcopal Church",
+        "city": "Mount Vernon",
+        "address": "415 S 18th St",
+        "zip": "98274",
+        "phone": "3604241822",
+        "website": "http://www.stpaulsmv.org/",
+        "events": {
+            "mass": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "11:00",
+                    "tags": []
+                }],
+                "Sunday (1st)": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {
+                "Sunday (2nd, 3rd & 4th)": {
+                    "Morning Prayer": "8:00"
+                }
+            },
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2016-05-19",
+        "flag_for_outreach": "FALSE",
+        "state": "WA"
+    }]
+}
