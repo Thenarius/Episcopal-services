@@ -31,7 +31,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Hugh of Lincoln",
         "city": "Allyn",
@@ -60,7 +61,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Christ Episcopal Church",
         "city": "Anacortes",
@@ -98,7 +100,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Celebration Lutheran Church",
         "city": "Anacortes",
@@ -122,7 +125,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Matthew / San Mateo",
         "city": "Auburn",
@@ -150,7 +154,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Barnabas",
         "city": "Bainbridge Island",
@@ -189,7 +194,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Grace Church",
         "city": "Bainbridge Island",
@@ -222,7 +228,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Church of the Holy Spirit",
         "city": "Battle Ground",
@@ -246,7 +253,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Church of the Resurrection",
         "city": "Bellevue",
@@ -281,7 +289,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Margaret's Episcopal Church",
         "city": "Bellevue",
@@ -325,7 +334,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Church of the Holy Apostles",
         "city": "Bellevue",
@@ -347,7 +357,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "All Saints Episcopal Church",
         "city": "Bellevue",
@@ -369,7 +380,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Paul's Episcopal Church",
         "city": "Bellingham",
@@ -419,7 +431,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Christ Episcopal Church",
         "city": "Blaine",
@@ -441,7 +454,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Paul's Episcopal Church",
         "city": "Bremerton",
@@ -474,7 +488,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Elizabeth",
         "city": "Burien",
@@ -506,7 +521,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Iglesia Santa Isabel",
         "city": "Burien",
@@ -528,7 +544,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Aidan Episcopal Church",
         "city": "Camano Island",
@@ -563,7 +580,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Matthew Episcopal Church",
         "city": "Castle Rock",
@@ -585,7 +603,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. James Episcopal Church",
         "city": "Cathlamet",
@@ -607,7 +626,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Timothy Episcopal Church",
         "city": "Chehalis",
@@ -640,7 +660,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Church of the Transfiguration",
         "city": "Darrington",
@@ -662,7 +683,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Emmanuel Episcopal Parish",
         "city": "Eastsound",
@@ -705,7 +727,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Alban's Episcopal Church",
         "city": "Edmonds",
@@ -731,7 +754,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Hilda St. Patrick Episcopal Church",
         "city": "Edmonds",
@@ -758,7 +782,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Luke's Episcopal Church",
         "city": "Elma",
@@ -780,7 +805,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Trinity Everett",
         "city": "Everett",
@@ -810,7 +836,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Church of the Good Shepherd",
         "city": "Federal Way",
@@ -843,7 +870,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Swithin's Episcopal Church",
         "city": "Forks",
@@ -865,7 +893,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Augustine's-in-the-Woods Episcopal Church",
         "city": "Freeland",
@@ -904,7 +933,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. David's Episcopal Church",
         "city": "Friday Harbor",
@@ -930,7 +960,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. John's Episcopal Church",
         "city": "Gig Harbor",
@@ -958,7 +989,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Germain Episcopal Church",
         "city": "Hoodsport",
@@ -980,7 +1012,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Michael and All Angels",
         "city": "Issaquah",
@@ -1012,7 +1045,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Church of the Redeemer",
         "city": "Kenmore",
@@ -1045,7 +1079,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. James Episcopal Church",
         "city": "Kent",
@@ -1080,7 +1115,8 @@
         },
         "last_updated": "2012-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Columba Episcopal Church",
         "city": "Kent",
@@ -1113,7 +1149,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. John's Episcopal Community",
         "city": "Kirkland",
@@ -1144,7 +1181,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Benedict Episcopal Church",
         "city": "Lacey",
@@ -1166,7 +1204,8 @@
         },
         "last_updated": "",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Mary's Episcopal Church",
         "city": "Lakewood",
@@ -1199,7 +1238,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "TRUE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Joseph - St. John Episcopal Church",
         "city": "Lakewood",
@@ -1226,7 +1266,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Stephen's Episcopal Church",
         "city": "Longview",
@@ -1256,7 +1297,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Grace Church",
         "city": "Lopez Island",
@@ -1278,7 +1320,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. George Episcopal Church",
         "city": "Maple Valley",
@@ -1304,7 +1347,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Philip's Episcopal Church",
         "city": "Marysville",
@@ -1332,7 +1376,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Thomas Episcopal Church",
         "city": "Medina",
@@ -1377,7 +1422,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Emmanuel Church",
         "city": "Mercer Island",
@@ -1410,7 +1456,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "Church of our Saviour",
         "city": "Monroe",
@@ -1432,7 +1479,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Mark's Episcopal Church",
         "city": "Montesano",
@@ -1454,7 +1502,8 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }, {
         "name": "St. Paul Episcopal Church",
         "city": "Mount Vernon",
@@ -1485,6 +1534,7 @@
         },
         "last_updated": "2016-05-19",
         "flag_for_outreach": "FALSE",
-        "state": "WA"
+        "state": "WA",
+        "diocese": "Olympia"
     }]
 }
