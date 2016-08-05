@@ -58,3 +58,13 @@ ul {
 #map {
 	height: 100%;
 }
+
+.inline {
+	display: inline !important;
+	width: 3em;
+}
+
+#eventPop {
+	background-color: #ddd;
+	padding: 2%;
+}

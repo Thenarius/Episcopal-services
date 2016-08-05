@@ -8,37 +8,79 @@ I am currently implementing data for churches in the Episcopal Diocese of Olympi
 Parish information is stored as an object. An example:
 
 		{
-			"name": "St. Paul's Episcopal Church",
-			"city": "Bremerton",
-			"address": "700 Callahan Dr",
-			"zip": "98130",
-			"phone": "3603770106",
-			"website": "http://www.stpaulsbremerton.org/",
+			"name": "St. Mark's Cathedral",
+			"address": "1245 10th Ave E",
+			"city": "Seattle",
+			"state": "WA",
+			"zip": "98102",
+			"diocese": "Olympia",
+			"phone": "2063230300",
+			"website": "http://www.saintmarks.org/",
 			"events": {
-				"mass": {
+				"eucharist": {
 					"Sunday": [
 						{
 							"language": "English",
 							"time": "8:00", 
-							"tags": ["spoken"]
+							"tags": []
 						},
 						{
 							"language": "English",
-							"time": "10:15",
-							"tags": ["choral"]
+							"time": "9:00",
+							"tags": []
+						},
+						{
+							"language": "English",
+							"time": "11:00",
+							"tags": []
+						}.
+						{
+							"language": "English",
+							"time": "19:00",
+							"tags": ["contemplative"]
+						}],
+					"Wednesday": [
+						{
+							"language": "English",
+							"time": "12:00",
+							"tags": []
 						}],
 					"Thursday": [
 						{
 							"language": "English",
-							"time": "10:00",
-							"tags": ["healing"]
+							"time": "07:00",
+							"tags": []
 						}]
 				},
-				"daily_office": {},
-				"prayer_service": {},
-				"bible_study": {
-					"Wednesday": "10:00"
-				}
+				"daily_office": {
+						"Sunday": {
+							"Evensong": "16:30",
+							"Compline": "21:30"
+						},
+						"Monday": {
+							"Evening Prayer": "18:30"
+						},
+						"Tuesday": {
+							"Evening Prayer": "18:30"
+						},
+						"Wednesday": {
+							"Evening Prayer": "18:30"
+						},
+						"Thursday": {
+							"Evening Prayer": "18:30"
+						},
+						"Friday": {
+							"Evening Prayer": "18:30"
+						}
+					},
+				"prayer_service": {
+					"Monday": {
+						"name": "Centering Prayer",
+						"time": "19:15",
+						"tags": ["contemplative"]
+					}
+				},
+				"bible_study": {}
 			},
 			"flag_for_outreach": "FALSE" 
 		},
@@ -50,9 +92,6 @@ For services, language should be specified explicitly. Assume English if a paris
 The "flag for outreach" parameter should be true **only** for parishes that have defunct websites or otherwise out-of-date/missing information (e.g., if any contact information is missing). 
 
 ## TODO ##
-* Finish implementing Google Maps API integration for finding nearest churches.
 * Get & store latitude & longitude data for existing churches.
 * Continue implementing churches in the diocese of Olympia. (50/101)
-* Revamp the way services that only occur e.g. every other week are handled.
-* Update the example church in this file.
-* Switch to server-side rendering with React & some HTML templating engine for sanity's sake.
+* Deal with churches with tags location-fix and repeat-fix.

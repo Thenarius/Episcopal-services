@@ -9,7 +9,7 @@
         "phone": "3605332511",
         "website": "http://standrewsgh.com/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -43,7 +43,7 @@
         "phone": "3602758450",
         "website": "http://www.sthughchurch.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -73,7 +73,7 @@
         "phone": "3602935790",
         "website": "http://www.christchurchanacortes.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday (2nd)": [{
                     "language": "English",
                     "time": "8:00",
@@ -112,7 +112,7 @@
         "phone": "3602993225",
         "website": "http://www.celebrationlc.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "9:30",
@@ -137,7 +137,7 @@
         "phone": "2538330890",
         "website": "http://stmatthewsanmateo.org",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "9:00",
@@ -166,7 +166,7 @@
         "phone": "2068425601",
         "website": "http://www.stbbi.org",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -206,7 +206,7 @@
         "phone": "2068429997",
         "website": "http://www.gracehere.org",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -240,7 +240,7 @@
         "phone": "3606873301",
         "website": "http://www.holyspiritbg.com",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -265,7 +265,7 @@
         "phone": "4257460322",
         "website": "http://www.resurrectionbellevue.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -301,7 +301,7 @@
         "phone": "4257466650",
         "website": "http://saintmargarets.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "7:15",
@@ -344,7 +344,7 @@
         "phone": "4253511423",
         "website": "http://holyapostles-wa.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "12:00",
@@ -367,7 +367,7 @@
         "phone": "4256461136",
         "website": "http://www.allsaintsbellevue.org",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "9:30",
@@ -390,7 +390,7 @@
         "phone": "3607332890",
         "website": "http://www.stpaulsbellingham.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "7:45",
@@ -441,7 +441,7 @@
         "phone": "3603324113",
         "website": "http://christchurchblaine.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -464,7 +464,7 @@
         "phone": "3603770106",
         "website": "http://www.stpaulsbremerton.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -498,7 +498,7 @@
         "phone": "2062436844",
         "website": "https://stelizabethburien.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -531,7 +531,7 @@
         "phone": "2062436844",
         "website": "https://stelizabethburien.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "Español",
                     "time": "17:00",
@@ -554,7 +554,7 @@
         "phone": "3606293969",
         "website": "http://www.staidancamanoisland.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -590,7 +590,7 @@
         "phone": "3602749393",
         "website": "http://stmatthewcastlerock.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -613,7 +613,7 @@
         "phone": "3607958612",
         "website": "http://stjamescathlamet.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -636,7 +636,7 @@
         "phone": "3607488232",
         "website": "http://sttimothychehalis.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -670,7 +670,7 @@
         "phone": "3604361815",
         "website": "http://transfigurationdarrington.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -693,7 +693,7 @@
         "phone": "3603762352",
         "website": "http://orcasepiscopal.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -737,7 +737,7 @@
         "phone": "4257780371",
         "website": "http://stalbansedmonds.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -764,7 +764,7 @@
         "phone": "4257434655",
         "website": "http://www.sthildastpatrick.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "9:30",
@@ -792,7 +792,7 @@
         "phone": "3604824310",
         "website": "http://saintlukeselma.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "11:00",
@@ -815,7 +815,7 @@
         "phone": "4252524129",
         "website": "http://www.trinityeverett.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -846,7 +846,7 @@
         "phone": "2538396100",
         "website": "http://www.goodshepherdfw.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -880,7 +880,7 @@
         "phone": "3604574862",
         "website": "#",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday (2nd & 4th)": [{
                     "language": "English",
                     "time": "17:00",
@@ -903,7 +903,7 @@
         "phone": "3603314887",
         "website": "http://staugustinesepiscopalchurch.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -943,7 +943,7 @@
         "phone": "3603785360",
         "website": "http://www.saintdavidsepiscopal.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -970,7 +970,7 @@
         "phone": "2538583777",
         "website": "http://stjohnsgigharbor.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -999,7 +999,7 @@
         "phone": "3608779879",
         "website": "http://stgermainhoodsport.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -1022,7 +1022,7 @@
         "phone": "4253923215",
         "website": "http://www.stmichaels-issaquah.org/stmichaels/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -1055,7 +1055,7 @@
         "phone": "4254863777",
         "website": "http://redeemer-kenmore.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -1089,7 +1089,7 @@
         "phone": "2538524450",
         "website": "http://stjameskent.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -1125,7 +1125,7 @@
         "phone": "2538549912",
         "website": "http://www.stcolumbakent.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -1159,7 +1159,7 @@
         "phone": "4258273077",
         "website": "http://www.stjohnskirkland.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -1191,7 +1191,7 @@
         "phone": "3604562240",
         "website": "http://www.stbenedictlacey.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "9:30",
@@ -1214,7 +1214,7 @@
         "phone": "2535886621",
         "website": "http://www.stmaryslw.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -1248,7 +1248,7 @@
         "phone": "2535846143",
         "website": "http://www.stjoseph-stjohn.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:30",
@@ -1276,7 +1276,7 @@
         "phone": "3604235600",
         "website": "http://www.sslv.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:30",
@@ -1307,7 +1307,7 @@
         "phone": "3604683477",
         "website": "http://gracelopezisland.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -1330,7 +1330,7 @@
         "phone": "4254325481",
         "website": "http://www.saintgeorgemv.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "9:00",
@@ -1357,7 +1357,7 @@
         "phone": "3606591727",
         "website": "http://www.saint-philips.org/online/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:30",
@@ -1386,7 +1386,7 @@
         "phone": "4254549541",
         "website": "http://www.stthomasmedina.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -1432,7 +1432,7 @@
         "phone": "2062321572",
         "website": "http://emmanuelmi.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
@@ -1466,7 +1466,7 @@
         "phone": "3607934216",
         "website": "http://www.monroeepiscopal.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -1489,7 +1489,7 @@
         "phone": "3602493281",
         "website": "http://www.stmarksmonte.com/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "10:00",
@@ -1512,7 +1512,7 @@
         "phone": "3604241822",
         "website": "http://www.stpaulsmv.org/",
         "events": {
-            "mass": {
+            "eucharist": {
                 "Sunday": [{
                     "language": "English",
                     "time": "11:00",
