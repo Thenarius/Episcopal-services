@@ -9,35 +9,41 @@ var expandWeek = {
 	"Sat": "Saturday"
 };
 
-function timeConvert(time) {
-	time = time.replace(/:/g, '');
-	var meridian = $('#time button .active').text();
+function timeConvert(hours, minutes) {
+	var meridian = $('#time').find('.active').text();
 	console.log(meridian);
-	return time;
+	
+	hours = Number(hours);
+
+	if (meridian == 'PM' && hours < 12) { hours += 12; }
+	if (meridian == 'AM' && hours == 12) { hours -= 12; }
+
+	return hours + ':' + minutes;
 }
 
 // save new service
 $('#modalSave').click(function(e) {
 	var type = $('#eventDrop .selection').val();
 	
-	var newObj = {};
-	newObj[type] = {};
+	var newEvent = {};
+	newEvent[type] = {};
 
-	$('#week .active').each(function(element) {
+	$('#week .active').each(function() {
 		var day = expandWeek[$(this).text()];
-		newObj[type][day] = newObj[type][day] || [];
-		newObj[type][day].push( {
+		newEvent[type][day] = newEvent[type][day] || [];
+		newEvent[type][day].push( {
 			"language": $('#language').val().replace(/\s/g, '').split(','),
-			"time": timeConvert($('#hour').val() + $('#minute').val()),
+			"time": timeConvert($('#hour').val(), $('#minute').val()),
 			"tags": []
 		});
+
+		$('#tags .active').each(function() {
+			newEvent[type][day][0]['tags'].push($(this).text());
+		})
 	});
 
-	services.push(newObj);
-	console.log(newObj);
-
 	$('#serviceContainer').append(
-		'<div class="service">' + JSON.stringify(newObj) + 
+		'<div class="service">' + JSON.stringify(newEvent) + 
 		'<button type="button" class="btn btn-default">&#9998;</button>' +
 		'<button type="button" class="btn btn-danger">&times;</button>' + 
 		'</div>'
