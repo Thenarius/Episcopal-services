@@ -1,25 +1,50 @@
 var services = [];
+var expandWeek = {
+	"Sun": "Sunday",
+	"Mon": "Monday",
+	"Tue": "Tuesday",
+	"Wed": "Wednesday",
+	"Thu": "Thursday",
+	"Fri": "Friday",
+	"Sat": "Saturday"
+};
 
+function timeConvert(time) {
+	time = time.replace(/:/g, '');
+	var meridian = $('#time button .active').text();
+	console.log(meridian);
+	return time;
+}
+
+// save new service
 $('#modalSave').click(function(e) {
-	console.log("Fire");
-	var tempObj = {
-		'type': $('#eventDrop').val(),
-		'languages': $('#language').val().replace(/\s/g, '').split(','),
-		'days': [],
-		'time': $('#hour').val() + ':' + $('#minute').val(),
-		'tags': []
-	};
-	services.push(tempObj);
-	console.log(tempObj);
+	var type = $('#eventDrop .selection').val();
+	
+	var newObj = {};
+	newObj[type] = {};
+
+	$('#week .active').each(function(element) {
+		var day = expandWeek[$(this).text()];
+		newObj[type][day] = newObj[type][day] || [];
+		newObj[type][day].push( {
+			"language": $('#language').val().replace(/\s/g, '').split(','),
+			"time": timeConvert($('#hour').val() + $('#minute').val()),
+			"tags": []
+		});
+	});
+
+	services.push(newObj);
+	console.log(newObj);
 
 	$('#serviceContainer').append(
-		'<div class="service">' + JSON.stringify(tempObj) + 
+		'<div class="service">' + JSON.stringify(newObj) + 
 		'<button type="button" class="btn btn-default">&#9998;</button>' +
 		'<button type="button" class="btn btn-danger">&times;</button>' + 
 		'</div>'
 	);
 });
 
+// submit request
 $('#parishForm').on('submit', function(e) {
 	e.preventDefault();
 	console.log(e.target);
@@ -50,7 +75,6 @@ $('#parishForm').on('submit', function(e) {
 });
 
 // dropdown handler
-
 $('.dropdown-menu li a').click(function() {
 	$(this).parents('.dropdown').find('.selection').text($(this).text());
 	$(this).parents('.dropdown').find('.selection').append(' <span class="caret"></span>');
@@ -69,5 +93,10 @@ $('#time button').click(function() {
 
 // days of the week buttons
 $('.weekday').click(function() {
+	$(this).toggleClass('active');
+})
+
+// tags toggle
+$('#tags button').click(function() {
 	$(this).toggleClass('active');
 })
