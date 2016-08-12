@@ -68,3 +68,16 @@ ul {
 	background-color: #ddd;
 	padding: 2%;
 }
+
+.service {
+	width: 100%;
+	background-color: white;
+}
+
+.service:nth-child(even) {
+	background-color: #ccc;
+}
+
+.service:nth-child(odd) {
+	background-color: #fff;
+}

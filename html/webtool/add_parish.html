@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="/jquery.js"></script>
+		<script src="/bootstrap.min.js"></script>
+		<link href="/bootstrap.css" rel="stylesheet">
+		<link href="/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="col-md-10 col-md-offset-1 well" id="container">
+			<div id="success" class="alert alert-success alert-dismissable collapse" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button>
+				<strong>Successfully added parish to database!</strong>
+			</div>
+			<div id="error" class="alert alert-danger alert-dismissable collapse" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span>&times;</span></button>
+				<strong>Error adding parish to database.</strong>
+			</div>
+			<form id="parishForm" class="well" style="margin-top: 10px">
+				<div class="form-group">
+					<label for="parish">Parish:</label>
+					<input class="form-control" id="parish" type="text" name="parish"></input>
+				</div>
+				<div class="form-group">
+					<label for="address">Address:</label>
+					<input class="form-control" id="address" type="text" name="address"></input>
+				</div>
+				<div class="form-group">
+					<label for="city">City:</label>
+					<input class="form-control" id="city" type="text" name="city"></input>
+				</div>
+				<div class="form-group">
+					<label for="state">State:</label>
+					<input class="form-control" id="state" type="text" name="state"></input>
+				</div>
+				<div class="form-group">
+					<label for="diocese">Diocese:</label>
+					<input class="form-control" id="diocese" type="text" name="diocese"></input>
+				</div>
+				<div class="form-group">
+					<label for="zip">Zip code:</label>
+					<input class="form-control" id="zip" type="text" name="zip"></input>
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone number:</label> <!-- todo - phone verification -->
+					<input class="form-control" id="phone" type="tel" name="tel"></input>
+				</div>
+				<div class="form-group">
+					<label for="website">Website:</label>
+					<input class="form-control" id="website" type="url" name="url"></input>
+				</div>
+				
+				<div class="form-group">
+					<label for="events">Services:</label><br />
+					<div id="serviceContainer">
+					</div>
+					<button type="button" class="btn btn-default" id="addButton" data-toggle="modal" data-target="#addService">Add another...</button>
+				</div>
+				<div class="modal fade" id="addService" tabindex='-1'>
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Add a service</h4>
+							</div>
+							<div class="modal-body">
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="eventDrop" data-toggle="dropdown"><span class="selection">Type of service <span class="caret"></span></span></button>
+									
+									<ul class="dropdown-menu">
+										<li><a href="#">Holy Eucharist</a></li>
+										<li><a href="#">Daily Office</a></li>
+										<li><a href="#">Prayer Service</a></li>
+										<li><a href="#">Bible Study</a></li>
+										<li><a href="#">Other</a></li>
+									</ul><br />
+								</div>
+
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="dailyOfficeDrop" data-toggle="dropdown"><span class="selection">Which office? <span class="caret"></span></span></button>
+
+									<ul class="dropdown-menu">
+										<li><a href="#">Morning Prayer</a></li>
+										<li><a href="#">Noonday</a></li>
+										<li><a href="#">Evening Prayer</a></li>
+										<li><a href="#">Compline</a></li>
+									</ul><br />
+								</div>
+
+								<label for="language">Service language(s) (comma separated): </label>
+								<input class="form-control" id="language" type="text" name="language"></input><br />
+								<div id="week">
+									<label>Days: </label>
+									<button class="btn btn-default weekday" type="button">Sun</button>
+									<button class="btn btn-default weekday" type="button">Mon</button>
+									<button class="btn btn-default weekday" type="button">Tue</button>
+									<button class="btn btn-default weekday" type="button">Wed</button>
+									<button class="btn btn-default weekday" type="button">Thu</button>
+									<button class="btn btn-default weekday" type="button">Fri</button>
+									<button class="btn btn-default weekday" type="button">Sat</button>
+								</div><br />
+								<div id="time">
+									<label>Time: </label>
+									<input class="inline form-control" id="hour" type="text" name="hour" placeholder="12"></input>
+									:
+									<input class="inline form-control" id="minute" type="text" name="minute" placeholder="00"></input>
+									<button class="btn btn-default" type="button">AM</button>
+									<button class="btn btn-default" type="button">PM</button>
+								</div>
+								<div id="tags">
+									<h4>Service tags</h4>
+									<label for="riteI">Rite I</label>
+									<input class="checkbox inline" id="boxRiteI" type="checkbox" name="riteI"></input>
+									<label for="riteII">Rite II</label>
+									<input class="checkbox inline" id="boxRiteII" type="checkbox" name="riteII"></input>
+									<label for="formal">Formal/High-Church service</label>
+									<input class="checkbox inline" id="boxFormal" type="checkbox" name="formal"></input>
+									<label for="incense">Incense</label>
+									<input class="checkbox inline" id="boxIncense" type="checkbox" name="incense"></input>
+									<label for="spoken">Spoken service (no music)</label>
+									<input class="checkbox inline" id="boxSpoken" type="checkbox" name="spoken"></input>
+									<label for="choral">Choral service</label>
+									<input class="checkbox inline" id="boxChoral" type="checkbox" name="choral"></input>
+									<label for="traditionalMusic">Traditional Music</label>
+									<input class="checkbox inline" id="boxTraditionalMusic" type="checkbox" name="traditionalMusic"></input>
+									<label for="contemporaryMusic">Contemporary Music</label>
+									<input class="checkbox inline" id="boxContemporaryMusic" type="checkbox" name="contemporaryMusic"></input>
+									<label for="healing">Healing service</label>
+									<input class="checkbox inline" id="boxHealing" type="checkbox" name="healing"></input>
+									<label for="contemplative">Contemplative service</label>
+									<input class="checkbox inline" id="boxContemplative" type="checkbox" name="contemplative"></input>
+									<label for="bilingual">Bilingual service</label>
+									<input class="checkbox inline" id="boxBilingual" type="checkbox" name="bilingual"></input>
+									<h4>Meta tags</h4>
+									<label for="verify">Verify</label>
+									<input class="checkbox inline" id="boxVerify" type="checkbox" name="verify"></input>
+									<label for="locationFix">Location-fix</label>
+									<input class="checkbox inline" id="boxLocationFix" type="checkbox" name="locationFix"></input>
+									<label for="repeatFix">Repeat-fix</label>
+									<input class="checkbox inline" id="boxRepeatFix" type="checkbox" name="repeatFix"></input>
+									<label for="inconsistentData">inconsistent_data</label>
+									<input class="checkbox inline" id="boxInconsistentData" type="checkbox" name="inconsistentData"></input>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary" id="modalSave">Save</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- todo: last updated -->
+				<div class="form-group">
+					<label for="flag">Flag for outreach?</label>
+					<input type="checkbox" value="flag" name="flag"></input>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+			<script src="/webtool/add_parish.js"></script>
+		</div>
+	</body>
+</html>
