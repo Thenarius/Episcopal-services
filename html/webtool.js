@@ -59,11 +59,14 @@ app.post('/webtool/add', function(req, res) {
 						'address': req.body.address,
 						'city': req.body.city,
 						'state': req.body.state,
+						'zip': req.body.zip,
+						'diocese': req.body.diocese,
 						'latitude': latitude,
 						'longitude': longitude,
-						'website': req.body.url,
+						'phone': req.body.phone,
+						'website': req.body.website,
 						'events': [],
-						'last_updated': '',
+						'last_updated': new Date().toISOString().split('T')[0],
 						'flag_for_outreach': flag
 					});
 

@@ -15,10 +15,10 @@ app.set('views', __dirname + '/views');
 // -- open db connection -- 
 var mongoClient = Mongo.MongoClient;
 var collection;
-mongoClient.connect('mongodb://localhost:27017/db', function(err, db) {
+mongoClient.connect('mongodb://localhost:27017/experimental', function(err, db) {
 	if (err) throw err;
 	console.log("Successfully connected to mongoDB");
-	collection = db.collection('documents');
+	collection = db.collection('parishes');
 });
 
 // -- Routes -- 

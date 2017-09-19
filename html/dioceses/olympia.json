@@ -1515,7 +1515,7 @@
             "eucharist": {
                 "Sunday": [{
                     "language": "English",
-                    "time": "11:00",
+                    "time": "9:30",
                     "tags": []
                 }],
                 "Sunday (1st)": [{
@@ -1536,5 +1536,216 @@
         "flag_for_outreach": "FALSE",
         "state": "WA",
         "diocese": "Olympia"
-    }]
-}
+    }, {
+        "name": "La Iglesia Episcopal de la Resurreccion",
+        "city": "Mount Vernon",
+        "address": "415 S 18th St",
+        "zip": "98274",
+        "phone": "3604241822",
+        "website": "https://resurreccionepiscopal.org/",
+        "events": {
+            "eucharist": {
+                "Sunday": [{
+                    "language": "Spanish",
+                    "time": "11:30",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2017-09-17",
+        "flag_for_outreach": "FALSE",
+        "state": "WA",
+        "diocese": "Olympia"
+    }, {
+        "name": "St. Stephen's Episcopal Church",
+        "city": "Oak Harbor",
+        "address": "555 SE Regatta Avenue",
+        "zip": "98277",
+        "phone": "3602790715",
+        "website": "https://www.ststephensofoakharbor.org/",
+        "events": {
+            "eucharist": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": []
+                }]
+            },
+            "daily_office": {
+                "Wednesday": {
+                    "Morning Prayer": "10:00"
+                },
+                "Thursday": {
+                    "Morning Prayer": "10:00"
+                }
+            },
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2017-09-17",
+        "flag_for_outreach": "FALSE",
+        "state": "WA",
+        "diocese": "Olympia"
+    }, {
+        "name": "St. Christopher's Community Church",
+        "city": "Olympia",
+        "address": "7902 Steamboat Island Road NW",
+        "zip": "98502",
+        "phone": "3608662111",
+        "website": "http://stchristopherolympia.org/",
+        "events": {
+            "eucharist": {
+                "Sunday": {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": []
+                }
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2017-09-17",
+        "flag_for_outreach": "FALSE",
+        "state": "WA",
+        "diocese": "Olympia"
+    }, {
+        "name": "St. John's Episcopal Church",
+        "city": "Olympia",
+        "address": "114 20th Ave. SE",
+        "zip": "98501",
+        "phone": "3603528527",
+        "website": "http://stjohnsoly.org/",
+        "events": {
+            "eucharist": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite II"]
+                },
+                {
+                    "language": "English",
+                    "time": "10:30",
+                    "tags": ["Rite II", "Choral"]
+                },
+                {
+                    "language": "Spanish",
+                    "time": "18:30",
+                    "tags": []
+                }],
+                "Wednesday": {
+                    "language": "English",
+                    "time": "7:00"
+                }
+            },
+            "daily_office": {
+                "Sunday": {
+                    "Compline": "20:00"
+                }
+            },
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2017-09-17",
+        "flag_for_outreach": "FALSE",
+        "state": "WA",
+        "diocese": "Olympia"
+    }, {
+        "name": "St. Andrew's Episcopal Church",
+        "city": "Port Angeles",
+        "address": "510 E. Park Avenue",
+        "zip": "98362",
+        "phone": "3604574862",
+        "website": "http://standrewpa.org/tabs/",
+        "events": {
+            "eucharist": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Rite I"]
+                },
+                {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": ["Rite II", "Choral"]
+                }],
+                "Wednesday": {
+                    "language": "English", 
+                    "time": "11:00",
+                    "tags": []
+                }
+            },
+            "daily_office": {},
+            "prayer_service": {
+                "Monday": {
+                    "Compline": "20:15"
+                }
+            },
+            "bible_study": {}
+        },
+        "last_updated": "2017-09-17",
+        "flag_for_outreach": "FALSE",
+        "state": "WA",
+        "diocese": "Olympia"
+    }, {
+        "name": "St. Bede's Episcopal Church",
+        "city": "Port Orchard",
+        "address": "1578 SE Lider Rd",
+        "zip": "98366",
+        "phone": "3608761182",
+        "website": "http://www.stbedeschurch.org/",
+        "events": {
+            "eucharist": {
+                "Sunday": [{
+                    "language": "English",
+                    "time": "8:00",
+                    "tags": ["Spoken"]
+                },
+                {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                }
+            ],
+                "Wednesday": [{
+                    "language": "English",
+                    "time": "11:00",
+                    "tags": []
+                }]
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "2017-09-17",
+        "flag_for_outreach": "FALSE",
+        "state": "WA",
+        "diocese": "Olympia"
+    }, {
+        "name": "Faith Episcopal Church",
+        "city": "Poulsbo",
+        "address": "20295 Little Valley Rd.",
+        "zip": "98370",
+        "phone": "3604717522",
+        "website": "http://faithpoulsbo.org/",
+        "events": {
+            "eucharist": {
+                "Sunday": {
+                    "language": "English",
+                    "time": "9:30",
+                    "tags": []
+                }
+            },
+            "daily_office": {},
+            "prayer_service": {},
+            "bible_study": {}
+        },
+        "last_updated": "",
+        "flag_for_outreach": "FALSE",
+        "state": "WA",
+        "diocese": "Olympia"
+    }
+]}
