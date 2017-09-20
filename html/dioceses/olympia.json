@@ -103,31 +103,6 @@
         "state": "WA",
         "diocese": "Olympia"
     }, {
-        "name": "Celebration Lutheran Church",
-        "city": "Anacortes",
-        "address": "611 R Ave.",
-        "latitude": "48.516753",
-        "longitude": "-122.609105",
-        "zip": "98221",
-        "phone": "3602993225",
-        "website": "http://www.celebrationlc.org/",
-        "events": {
-            "eucharist": {
-                "Sunday": [{
-                    "language": "English",
-                    "time": "9:30",
-                    "tags": ["verify"]
-                }]
-            },
-            "daily_office": {},
-            "prayer_service": {},
-            "bible_study": {}
-        },
-        "last_updated": "2016-05-19",
-        "flag_for_outreach": "TRUE",
-        "state": "WA",
-        "diocese": "Olympia"
-    }, {
         "name": "St. Matthew / San Mateo",
         "city": "Auburn",
         "address": "123 L St. NE",
@@ -269,7 +244,7 @@
                 "Sunday": [{
                     "language": "English",
                     "time": "8:00",
-                    "tags": ["Rite I"]
+                    "tags": ["Rite I", "verify"]
                 }, {
                     "language": "English",
                     "time": "10:00",
@@ -337,7 +312,7 @@
         "state": "WA",
         "diocese": "Olympia"
     }, {
-        "name": "Church of the Resurrection",
+        "name": "Church of the Holy Apostles",
         "city": "Bellevue",
         "address": "15220 Main St.",
         "latitude": "47.610587",
@@ -350,7 +325,7 @@
                 "Sunday": {
                     "language": "English",
                     "time": "10:00",
-                    "tags": []
+                    "tags": ["verify"]
                 },
                 "Thursday": {
                     "language": "English",
@@ -363,7 +338,7 @@
             "bible_study": {}
         },
         "last_updated": "2017-09-19",
-        "flag_for_outreach": "FALSE",
+        "flag_for_outreach": "TRUE",
         "state": "WA",
         "diocese": "Olympia"
     }, {
