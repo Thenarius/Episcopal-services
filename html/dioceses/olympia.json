@@ -856,6 +856,8 @@
         "name": "Church of the Good Shepherd",
         "city": "Federal Way",
         "address": "345 S 312th St",
+        "latitude": "47.321987",
+        "longitude": "-122.330587",
         "zip": "98003",
         "phone": "2538396100",
         "website": "http://www.goodshepherdfw.org/",
@@ -890,15 +892,17 @@
         "name": "St. Swithin's Episcopal Church",
         "city": "Forks",
         "address": "250 Blackberry Ave",
+        "latitude": "47.953300",
+        "longitude": "-124.383735",
         "zip": "98331",
         "phone": "3604574862",
-        "website": "#",
+        "website": "http://standrewpa.org/tabs/stswithins.php",
         "events": {
             "eucharist": {
                 "Sunday (2nd & 4th)": [{
                     "language": "English",
                     "time": "17:00",
-                    "tags": []
+                    "tags": ["location-fix", "verify"]
                 }]
             },
             "daily_office": {},
@@ -913,6 +917,8 @@
         "name": "St. Augustine's-in-the-Woods Episcopal Church",
         "city": "Freeland",
         "address": "5217 S Honeymoon Bay Rd",
+        "latitude": "48.021616",
+        "longitude": "-122.543462",
         "zip": "98249",
         "phone": "3603314887",
         "website": "http://staugustinesepiscopalchurch.org/",
@@ -953,6 +959,8 @@
         "name": "St. David's Episcopal Church",
         "city": "Friday Harbor",
         "address": "780 Park St",
+        "latitude": "48.534891",
+        "longitude": "-123.026098",
         "zip": "98250",
         "phone": "3603785360",
         "website": "http://www.saintdavidsepiscopal.org/",
@@ -980,6 +988,8 @@
         "name": "St. John's Episcopal Church",
         "city": "Gig Harbor",
         "address": "7701 Skansie Ave",
+        "latitude": "47.327614",
+        "longitude": "-122.599656",
         "zip": "98335",
         "phone": "2538583777",
         "website": "http://stjohnsgigharbor.org/",
