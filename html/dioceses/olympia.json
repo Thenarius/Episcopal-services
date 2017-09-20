@@ -337,25 +337,32 @@
         "state": "WA",
         "diocese": "Olympia"
     }, {
-        "name": "Church of the Holy Apostles",
+        "name": "Church of the Resurrection",
         "city": "Bellevue",
         "address": "15220 Main St.",
+        "latitude": "47.610587",
+        "longitude": "-122.136612",
         "zip": "98007",
         "phone": "4253511423",
         "website": "http://holyapostles-wa.org/",
         "events": {
             "eucharist": {
-                "Sunday": [{
+                "Sunday": {
+                    "language": "English",
+                    "time": "10:00",
+                    "tags": []
+                },
+                "Thursday": {
                     "language": "English",
                     "time": "12:00",
-                    "tags": ["verify", "bilingual?"]
-                }]
+                    "tags": []
+                }
             },
             "daily_office": {},
             "prayer_service": {},
             "bible_study": {}
         },
-        "last_updated": "2016-05-19",
+        "last_updated": "2017-09-19",
         "flag_for_outreach": "FALSE",
         "state": "WA",
         "diocese": "Olympia"
@@ -363,6 +370,8 @@
         "name": "All Saints Episcopal Church",
         "city": "Bellevue",
         "address": "1307 120th Ave NE",
+        "latitude": "47.622163",
+        "longitude": "-122.180323",
         "zip": "98005",
         "phone": "4256461136",
         "website": "http://www.allsaintsbellevue.org",
@@ -386,6 +395,8 @@
         "name": "St. Paul's Episcopal Church",
         "city": "Bellingham",
         "address": "2117 Walnut St",
+        "latitude": "48.758425",
+        "longitude": "-122.492279",
         "zip": "98225",
         "phone": "3607332890",
         "website": "http://www.stpaulsbellingham.org/",
@@ -436,6 +447,8 @@
     }, {
         "name": "Christ Episcopal Church",
         "city": "Blaine",
+        "latitude": "48.99088",
+        "longitude": "-122.748448",
         "address": "382 Boblett St",
         "zip": "98230",
         "phone": "3603324113",
@@ -460,6 +473,8 @@
         "name": "St. Paul's Episcopal Church",
         "city": "Bremerton",
         "address": "700 Callahan Dr",
+        "latitude": "47.585259",
+        "longitude": "-122.628529",
         "zip": "98130",
         "phone": "3603770106",
         "website": "http://www.stpaulsbremerton.org/",
@@ -494,6 +509,8 @@
         "name": "St. Elizabeth",
         "city": "Burien",
         "address": "1005 SW 152nd St",
+        "latitude": "47.466407",
+        "longitude": "-122.347494",
         "zip": "98166",
         "phone": "2062436844",
         "website": "https://stelizabethburien.org/",
@@ -527,6 +544,8 @@
         "name": "Iglesia Santa Isabel",
         "city": "Burien",
         "address": "1005 SW 152nd St",
+        "latitude": "47.466407",
+        "longitude": "-122.347494",
         "zip": "98166",
         "phone": "2062436844",
         "website": "https://stelizabethburien.org/",
@@ -535,7 +554,7 @@
                 "Sunday": [{
                     "language": "Español",
                     "time": "17:00",
-                    "tags": []
+                    "tags": ["verify"]
                 }]
             },
             "daily_office": {},
@@ -543,13 +562,15 @@
             "bible_study": {}
         },
         "last_updated": "2016-05-19",
-        "flag_for_outreach": "FALSE",
+        "flag_for_outreach": "TRUE",
         "state": "WA",
         "diocese": "Olympia"
     }, {
         "name": "St. Aidan Episcopal Church",
         "city": "Camano Island",
         "address": "1318 E State Rd",
+        "latitude": "48.238787",
+        "longitude": "-122.410823",
         "zip": "98282",
         "phone": "3606293969",
         "website": "http://www.staidancamanoisland.org/",
@@ -586,6 +607,8 @@
         "name": "St. Matthew Episcopal Church",
         "city": "Castle Rock",
         "address": "412 Pioneer Ave",
+        "latitude": "46.278663",
+        "longitude": "-122.901270",
         "zip": "98611",
         "phone": "3602749393",
         "website": "http://stmatthewcastlerock.org/",
@@ -609,6 +632,8 @@
         "name": "St. James Episcopal Church",
         "city": "Cathlamet",
         "address": "1134 Columbia St",
+        "latitude": "46.194575",
+        "longitude": "-123.369025",
         "zip": "98612",
         "phone": "3607958612",
         "website": "http://stjamescathlamet.org/",
@@ -632,6 +657,8 @@
         "name": "St. Timothy Episcopal Church",
         "city": "Chehalis",
         "address": "1826 SW Snively Ave",
+        "latitude": "46.646604",
+        "longitude": "-122.946784",
         "zip": "98532",
         "phone": "3607488232",
         "website": "http://sttimothychehalis.org/",
@@ -666,6 +693,8 @@
         "name": "Church of the Transfiguration",
         "city": "Darrington",
         "address": "840 Commercial St",
+        "latitude": "48.252782",
+        "longitude": "-121.606074",
         "zip": "98241",
         "phone": "3604361815",
         "website": "http://transfigurationdarrington.org/",
@@ -689,6 +718,8 @@
         "name": "Emmanuel Episcopal Parish",
         "city": "Eastsound",
         "address": "242 Main St",
+        "latitude": "48.694498",
+        "longitude": "-122.907159",
         "zip": "98245",
         "phone": "3603762352",
         "website": "http://orcasepiscopal.org/",
@@ -733,6 +764,8 @@
         "name": "St. Alban's Episcopal Church",
         "city": "Edmonds",
         "address": "21405 82nd Pl W",
+        "latitude": "47.805231",
+        "longitude": "-122.344250",
         "zip": "98026",
         "phone": "4257780371",
         "website": "http://stalbansedmonds.org/",
@@ -760,6 +793,8 @@
         "name": "St. Hilda St. Patrick Episcopal Church",
         "city": "Edmonds",
         "address": "15224 52nd Ave W",
+        "latitude": "47.860101",
+        "longitude": "-122.304192",
         "zip": "98026",
         "phone": "4257434655",
         "website": "http://www.sthildastpatrick.org/",
@@ -788,6 +823,8 @@
         "name": "St. Luke's Episcopal Church",
         "city": "Elma",
         "address": "626 W Young St",
+        "latitude": "47.004656",
+        "longitude": "-123.409813",
         "zip": "98541",
         "phone": "3604824310",
         "website": "http://saintlukeselma.org/",
@@ -808,9 +845,11 @@
         "state": "WA",
         "diocese": "Olympia"
     }, {
-        "name": "Trinity Everett",
+        "name": "Trinity Episcopal Church",
         "city": "Everett",
         "address": "2301 Hoyt Ave",
+        "latitude": "47.986896",
+        "longitude": "-122.209720",
         "zip": "98201",
         "phone": "4252524129",
         "website": "http://www.trinityeverett.org/",
