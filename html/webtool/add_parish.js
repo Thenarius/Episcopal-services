@@ -9,7 +9,7 @@ var expandWeek = {
 	"Sat": "Saturday"
 };
 
-function timeConvert(hours, minutes) {
+function convertTime(hours, minutes) {
 	var meridian = $('#time').find('.active').text();
 	console.log(meridian);
 	
@@ -33,7 +33,7 @@ $('#modalSave').click(function(e) {
 		newEvent[type][day] = newEvent[type][day] || [];
 		newEvent[type][day].push( {
 			"language": $('#language').val().replace(/\s/g, '').split(','),
-			"time": timeConvert($('#hour').val(), $('#minute').val()),
+			"time": convertTime($('#hour').val(), $('#minute').val()),
 			"tags": []
 		});
 
@@ -61,6 +61,7 @@ $('#parishForm').on('submit', function(e) {
 		city: $('#city').val(),
 		state: $('#state').val(),
 		zip: $('#zip').val(),
+		diocese: $('#diocese').val(),
 		phone: $('#phone').val(),
 		website: $('#website').val(),
 		flag: $('#checkbox:checked').val()
