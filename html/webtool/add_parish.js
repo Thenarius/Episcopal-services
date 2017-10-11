@@ -9,6 +9,7 @@ var expandWeek = {
 	"Sat": "Saturday"
 };
 
+// convert AM/PM to 24hr time for storage in db
 function convertTime(hours, minutes) {
 	var meridian = $('#time').find('.active').text();
 	console.log(meridian);
@@ -21,7 +22,7 @@ function convertTime(hours, minutes) {
 	return hours + ':' + minutes;
 }
 
-// save new service
+// new service save function
 $('#modalSave').click(function(e) {
 	var type = $('#eventDrop .selection').val();
 	
@@ -32,9 +33,9 @@ $('#modalSave').click(function(e) {
 		var day = expandWeek[$(this).text()];
 		newEvent[type][day] = newEvent[type][day] || [];
 		newEvent[type][day].push( {
-			"language": $('#language').val().replace(/\s/g, '').split(','),
+			"language": $('#language').val().replace(/\s/g, '').split(','), // TODO set English default
 			"time": convertTime($('#hour').val(), $('#minute').val()),
-			"tags": []
+			"tags": [] // TODO - events w/o tags aren't listing tags
 		});
 
 		$('#tags .active').each(function() {
@@ -42,43 +43,13 @@ $('#modalSave').click(function(e) {
 		})
 	});
 
+	services.push(newEvent);
 	$('#serviceContainer').append(
 		'<div class="service">' + JSON.stringify(newEvent) + 
 		'<button type="button" class="btn btn-default">&#9998;</button>' +
 		'<button type="button" class="btn btn-danger">&times;</button>' + 
 		'</div>'
 	);
-});
-
-// submit request
-$('#parishForm').on('submit', function(e) {
-	e.preventDefault();
-	console.log(e.target);
-
-	$.post('/webtool/add', {
-		parish: $('#parish').val(),
-		address: $('#address').val(),
-		city: $('#city').val(),
-		state: $('#state').val(),
-		zip: $('#zip').val(),
-		diocese: $('#diocese').val(),
-		phone: $('#phone').val(),
-		website: $('#website').val(),
-		flag: $('#checkbox:checked').val()
-	}, function(data, status) {
-		console.log(status);
-		if (status == "success") {
-			// update page with "Successfully added parish to DB"
-			$('#success').show();
-		}
-		else {
-			$('#error').show();
-		}
-	}).fail(function() {
-		$('#error').show();
-	});
-
-	console.log("Form submitted!");
 });
 
 // dropdown handler
@@ -98,7 +69,7 @@ $('#time button').click(function() {
 	$(this).toggleClass('active');
 })
 
-// days of the week buttons
+// toggleable day of the week buttons
 $('.weekday').click(function() {
 	$(this).toggleClass('active');
 })
@@ -107,3 +78,34 @@ $('.weekday').click(function() {
 $('#tags button').click(function() {
 	$(this).toggleClass('active');
 })
+
+// submit request
+$('#parishForm').on('submit', function(e) {
+	e.preventDefault();
+	console.log(e.target);
+
+	$.post('/webtool/add', {
+		parish: $('#parish').val(),
+		address: $('#address').val(),
+		city: $('#city').val(),
+		state: $('#state').val(),
+		zip: $('#zip').val(),
+		diocese: $('#diocese').val(),
+		phone: $('#phone').val(),
+		website: $('#website').val(),
+		flag: $('#checkbox:checked').val(),
+		services: services
+	}, function(data, status) {
+		if (status == "success") {
+			// update page with "Successfully added parish to DB"
+			$('#success').show();
+		}
+		else {
+			$('#error').show();
+		}
+	}).fail(function() {
+		$('#error').show();
+	});
+
+	console.log("Form submitted!");
+});

@@ -65,7 +65,7 @@ app.post('/webtool/add', function(req, res) {
 						'longitude': longitude,
 						'phone': req.body.phone,
 						'website': req.body.website,
-						'events': [],
+						'events': req.body.services,
 						'last_updated': new Date().toISOString().split('T')[0],
 						'flag_for_outreach': flag
 					});
